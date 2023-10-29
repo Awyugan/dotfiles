@@ -6,20 +6,11 @@
 
 <!--rehype:style=text-align: center;-->
 
-## Table of Contents
+## 日常备份
 
-- [Table of Contents](#table-of-contents)
-- [Bootstrap](#bootstrap)
-- [Customize](#customize)
-    - [`zshrc`](#zshrc)
-    - [`~/.gitconfig.local`](#gitconfiglocal)
-    - [macOS 配置指南](#macos-配置指南)
-    - [macOS Homebrew 配置指南](#macos-homebrew-配置指南)
-    - [Ubuntu 配置指南](#ubuntu-配置指南)
-    - [Arch 配置指南](#arch-配置指南)
-- [ChangeLog](#changelog)
+根据 scripts/README.md 运行相关指令
 
-## Bootstrap
+## Bootstrap一键装机
 
 1. 创建一个新[Github仓库](https://github.com/new)
 2. 将仓库 Clone 至 `$HOME/dotfiles`，如果本地不存在的话；
