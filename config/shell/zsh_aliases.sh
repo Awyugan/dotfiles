@@ -1,12 +1,12 @@
 #===============================================================================
 # 👇 Aliases
-# 👇 For a full list of active aliases, run `alias`.
+# 👇 For a full list of active aliases, run `alias`.# 👇 通过运行 `alias` 查看所有活动别名的完整列表。
 #===============================================================================
 case $SYSTEM_TYPE in
 mac_arm64)
-  alias x86_64='arch -x86_64 zsh --login'
-  alias x86_64_run='arch -x86_64 zsh -c'
-  alias brow='/usr/local/homebrew/bin/brew'
+  alias x86_64='arch -x86_64 zsh --login'  # 以 x86_64 架构启动新的 zsh 登录会话
+  alias x86_64_run='arch -x86_64 zsh -c'  # 以 x86_64 架构执行 zsh 命令
+  alias brow='/usr/local/homebrew/bin/brew'  # 为 Homebrew 创建别名
   ;;
 esac
 
@@ -57,7 +57,7 @@ alias ip='curl -4 ip.sb'
 alias ipv6='curl -6 ip.sb'
 
 #===============================================================================
-# 👇 run
+# 👇 run（运行）
 #===============================================================================
 alias r-archivebox='cd /Volumes/Workspace/Databases/ArchiveBox && archivebox server'
 alias r-bb='/Applications/OpenBB\ Terminal/OpenBB\ Terminal'
@@ -71,17 +71,17 @@ alias r-p2t='${HOME}/Stacks/Utilities/Pix2Text/.venv/bin/python ${HOME}/Stacks/U
 alias r-unm='node ${HOME}/Stacks/Utilities/UnblockNeteaseMusic/app.js -p 80:443 -f 103.126.92.132'
 
 #===============================================================================
-# 👇 run update
+# 👇 run update（运行更新）
 #===============================================================================
 r-update() {
-  asdf latest --all
-  brew cu
+  asdf latest --all # 获取所有 asdf 管理的软件的最新版本
+  brew cu # 更新 Homebrew 中的 cask 软件
   brew update
   tldr --update
 }
 
 #===============================================================================
-# 👇 run upgrade
+# 👇 run upgrade（运行升级）
 #===============================================================================
 r-upgrade() {
   asdf plugin update --all

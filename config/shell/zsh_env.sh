@@ -1,5 +1,5 @@
 #===============================================================================
-# 👇 Fig pre block. Keep at the top of this file.
+# 👇 Fig pre block. Keep at the top of this file.保留在文件的顶部。
 #===============================================================================
 # [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 
@@ -10,13 +10,14 @@
 #   else echo 'export GPG_TTY=$(tty)' >> ~/.zprofile; fi
 
 #===============================================================================
-# 👇 oh-my-zsh init
+# 👇 oh-my-zsh init oh-my-zsh 初始化
 #===============================================================================
 export ZSH="${HOME}/.oh-my-zsh"
 
 #===============================================================================
 # 👇 zsh Theme
 #===============================================================================
+# 判断是否在SSH连接中，决定是否执行 starship 初始化
 if [[ -n $SSH_CONNECTION ]]; then
   eval "$(starship init zsh)"
 else
@@ -24,7 +25,7 @@ else
 fi
 
 #===============================================================================
-# 👇 zsh-vi-mode https://github.com/jeffreytse/zsh-vi-mode/issues/24
+# 👇 zsh-vi-mode https://github.com/jeffreytse/zsh-vi-mode/issues/24 zsh-vi-mode 配置
 #===============================================================================
 export ZVM_INIT_MODE=sourcing
 
@@ -34,6 +35,7 @@ export ZVM_INIT_MODE=sourcing
 # x <file> extract <file>
 # showfiles show hidefiles
 #===============================================================================
+# 设置 zsh 插件
 export plugins=(
   asdf
   colored-man-pages
@@ -56,7 +58,7 @@ export plugins=(
 )
 
 #===============================================================================
-# 👇 Language environment
+# 👇 Language environment 语言环境设置
 #===============================================================================
 export LANG=en_US.UTF-8
 
@@ -66,7 +68,7 @@ export LANG=en_US.UTF-8
 export CHEAT_USE_FZF=true
 
 #===============================================================================
-# 👇 History
+# 👇 History 历史记录设置
 #===============================================================================
 export HIST_STAMPS="yyyy-mm-dd"
 export HISTFILE="$HOME/.zsh_history"
@@ -94,7 +96,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'lsd --icon=always $realpath'
 zstyle ':fzf-tab:*' fzf-pad 10
 
 #===============================================================================
-# 👇 gcloud
+# 👇 gcloud 自定义键绑定
 #===============================================================================
 case $SYSTEM_TYPE in
 mac_arm64 | mac_x86_64)

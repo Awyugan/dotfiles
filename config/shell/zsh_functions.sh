@@ -1,26 +1,26 @@
 #===============================================================================
-# 👇 1Password
+# 👇 1Password # 登录1Password
 #===============================================================================
-opon() {
-  if [[ -z $OP_SESSION_my ]]; then
-    eval "$(op signin --account my)"
-  fi
-}
-opoff() {
-  op signout
-  unset OP_SESSION_my
-}
-getkey() {
-  opon
-  op item get id_rsa_macbook_14 --format json | jq '.fields | map(select(.id == "private_key")) | .[0] | .value' -r | ssh-add -
-  opoff
-}
-remkey() {
-  ssh-add -D
-}
+#opon() {
+#  if [[ -z $OP_SESSION_my ]]; then
+#    eval "$(op signin --account my)"
+#  fi
+#}
+#opoff() { # 登出1Password
+#  op signout
+#  unset OP_SESSION_my
+#}
+#getkey() { # 获取并添加私钥到ssh-agent
+#  opon
+#  op item get id_rsa_macbook_14 --format json | jq '.fields | map(select(.id == "private_key")) | .[0] | .value' -r | ssh-add -
+#  opoff
+#}
+#remkey() { # 移除所有私钥
+#  ssh-add -D
+#}
 
 #===============================================================================
-# 👇 sudo Ctrl-S
+# 👇 sudo Ctrl-S # 切换sudo前缀
 #===============================================================================
 sudo-command-line() {
   [[ -z $BUFFER ]] && zle up-history
@@ -37,14 +37,14 @@ sudo-command-line() {
 zle -N sudo-command-line
 
 #===============================================================================
-# 👇 Git
+# 👇 Git # 克隆仓库并切换到仓库目录
 #===============================================================================
 getrepo() {
   git clone "$1" && cd "$(basename "$1" .git)" || exit
 }
 
 #===============================================================================
-# 👇 fzf Option-X 跳转近期目录
+# 👇 fzf Option-X # 使用fzf选择并切换到最近的目录
 #===============================================================================
 fzf-dirs-widget() {
   dir=$(dirs -v | fzf --height "${FZF_TMUX_HEIGHT:-40%}" --reverse | cut -b3-)
@@ -65,6 +65,7 @@ zle -N fzf-dirs-widget
 # 👇 fzf completion will use ~~ as the trigger sequence instead of the default **
 # 👇 Ctrl-I will be used to trigger completion
 #===============================================================================
+# 设置fzf完成触发序列和选项
 export FZF_COMPLETION_TRIGGER='~~'
 export FZF_COMPLETION_OPTS='--border --info=inline'
 _fzf_comprun() {
@@ -102,7 +103,7 @@ fch() {
 }
 
 #===============================================================================
-# 👇 fzf 浏览器书签
+# 👇 fzf 浏览器书签 # 使用fzf查看和打开浏览器历史记录
 #===============================================================================
 fcb() {
     bookmarks_path=~/Library/Application\ Support/Google/Chrome/Default/Bookmarks
@@ -117,7 +118,7 @@ fcb() {
 }
 
 #===============================================================================
-# 👇 fzf 杀进程
+# 👇 fzf 使用fzf选择并杀死进程
 #===============================================================================
 fkill() {
   (date; ps -ef) |
@@ -128,18 +129,18 @@ fkill() {
 }
 
 #===============================================================================
-# 👇 fzf z
+# 👇 fzf z 插件配置
 #===============================================================================
 # z foo<tab> # shows the same completions as cd
 # z foo<space><tab> # shows interactive completions via zoxide
 
 #===============================================================================
-# 👇 fzf asdf
+# 👇 fzf asdf 插件配置
 #===============================================================================
 # ref fasdf()
 
 #===============================================================================
-# 👇 tmux
+# 👇 tmux tmux会话切换或创建
 #===============================================================================
 tm() {
   [[ -n "$TMUX" ]] && change="switch-client" || change="attach-session"
@@ -162,7 +163,7 @@ tmkill() {
 }
 
 #===============================================================================
-# 👇 cd
+# 👇 cd 通过fzf交互式选择目录进行切换
 #===============================================================================
 cd() {
     if [[ "$#" != 0 ]]; then
@@ -185,7 +186,7 @@ cd() {
 }
 
 #===============================================================================
-# 👇 https://github.com/xbin-io/xbin/
+# 👇 https://github.com/xbin-io/xbin/ # 使用xbin运行命令
 #===============================================================================
 function xbin() {
   command="$1"
@@ -204,7 +205,7 @@ function xbin() {
 # hgpt "create a 10 row csv of NBA player data with headers - please only include the data, nothing else" > nba.csv
 # dgpt "can you write a sql query to get the average PointsPerGame by Position from the following" "$(cat nba.csv)"
 #===============================================================================
-function hgpt {
+function hgpt { # 使用hgpt和dgpt与AI交互
     local prompt=$1
 
     ai "$prompt"
