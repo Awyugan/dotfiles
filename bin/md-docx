@@ -1,20 +1,27 @@
 #!/usr/bin/env bash
 
-# https://pandoc.org/installing.html
-# https://github.com/lierdakil/pandoc-crossref
+# 该脚本用于将 markdown 文件转换为 docx 文件
+# 依赖：pandoc, pandoc-crossref
+# 参考链接：
+# - https://pandoc.org/installing.html
+# - https://github.com/lierdakil/pandoc-crossref
 
+# 如果用户输入参数为 -h, 显示使用帮助信息
 if [ "$1" == "-h" ]; then
     echo "Usage: $(basename "$0") </YOUR_DIR>"
     exit 0
 fi
 
+# 获取文件目录和文件名信息
 FILEDIR="$PWD/$1"
 FILENAME=$(basename -- "$FILEDIR")
 FILEEXTENSION="${FILENAME##*.}"
 FILENAME="${FILENAME%.*}"
 
+# 输出处理进度
 echo "Processing ${FILENAME%.*}.${FILEEXTENSION}"
 
+# 使用 pandoc 命令进行转换
 pandoc --standalone "${FILEDIR}" \
     --bibliography="${HOME}/Databases/Zotero/better-bibtex-my-library.bib" \
     --csl="${HOME}/Databases/Zotero/styles/ieee.csl" \

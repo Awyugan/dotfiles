@@ -15,7 +15,7 @@ from http.client import HTTPResponse, IncompleteRead
 
 __version__ = '0.3.0'
 
-
+# 定义配置类
 class Config:
     api_key = None
     api_base_url = 'https://api.openai.com/v1/'
@@ -34,16 +34,16 @@ class Config:
     write_history = False
     debug = False
 
-
+# 定义常量类
 class Consts:
     project_dir_name = 'ai-py'
     config_file = 'config.json'
     prompts_file = 'prompts.json'
 
-
+# 初始化日志对象
 lg = logging.getLogger(__name__)
 
-
+# 主函数
 def main():
     config_dir = get_config_dir()
     config_file = config_dir.joinpath(Consts.config_file)
@@ -53,7 +53,7 @@ def main():
 Config file: {config_file} ({'exists' if config_file.exists() else 'not exists'})
 Prompts file: {prompts_file} ({'exists' if prompts_file.exists() else 'not exists'})\
 """
-    # the `formatter_class` can make description & epilog show multiline
+    # the `formatter_class` can make description & epilog show multiline 处理命令行参数和配置
     parser = argparse.ArgumentParser(description="A simple CLI for ChatGPT API", epilog=epilog, formatter_class=argparse.RawDescriptionHelpFormatter)
 
     # arguments
@@ -75,13 +75,13 @@ Prompts file: {prompts_file} ({'exists' if prompts_file.exists() else 'not exist
     args = parser.parse_args()
 
     # config
-    # load config from file
+    # load config from file 加载配置文件
     if os.path.exists(config_file):
         with open(config_file) as f:
             config = json.load(f)
         for k, v in config.items():
             setattr(Config, k, v)
-    # override config from env
+    # override config from env 环境变量配置
     env_api_key = os.environ.get('AI_PY_API_KEY')
     if env_api_key:
         Config.api_key = env_api_key
@@ -145,7 +145,7 @@ Prompts file: {prompts_file} ({'exists' if prompts_file.exists() else 'not exist
     else:
         repl(session, pm)
 
-
+# 单次聊天函数
 def chat_once(session, pm, prompt):
     user_message = pm.new_message('user', prompt)
     try:
@@ -163,7 +163,7 @@ def chat_once(session, pm, prompt):
     if Config.write_history:
         write_history(Config.history, session.messages)
 
-
+# 交互式聊天函数
 def repl(session, pm):
     green_start = esc(32)
     while True:
@@ -189,7 +189,7 @@ def repl(session, pm):
         else:
             chat_once(session, pm, prompt)
 
-
+# 加载聊天历史函数
 def load_history(history_file):
     with open(history_file) as f:
         messages = json.load(f)
@@ -203,14 +203,14 @@ def load_history(history_file):
         assert isinstance(i['content'], str), f'invalid content (wrong type): {i["content"]}'
     return messages
 
-
+# 写入聊天历史函数
 def write_history(history_file, messages):
     with open(history_file, 'w') as f:
         json.dump(messages, f, indent=2)
 
 
 command_set_keys = ['model', 'params', 'system', 'conversation', 'verbose']
-
+# 运行命令函数
 def run_command(session, pm, prompt):
     sp = prompt.split(' ')
     command = sp[0][1:]
@@ -253,7 +253,7 @@ def run_command(session, pm, prompt):
     else:
         raise Exception(f'unknown command: {command}')
 
-
+# 字符串转值函数
 def str_to_value(s, assert_type=None):
     v = s
     if s == 'True':
@@ -272,7 +272,7 @@ def str_to_value(s, assert_type=None):
 inline_code_re = re.compile(r'`([^\n`]+)`')
 multiline_code_re = re.compile(r'```\w*\n([^`]+)\n```')
 
-
+# 打印消息函数
 def print_message(message):
     role = message['role']
     role_with_padding = f' {role} '
@@ -298,7 +298,7 @@ def print_message(message):
 
     print(s + '\n')
 
-
+# 打印信息函数
 def print_info(session):
     c = magenta
     s = f"""\
@@ -314,7 +314,7 @@ def print_info(session):
 """
     print(s + '\n')
 
-
+# 获取XDG主目录函数
 def get_xdg_home() -> Path:
     xdg_home = os.getenv("XDG_CONFIG_HOME", "")
     # XDG_CONFIG_HOME must set with absolute path
@@ -323,7 +323,7 @@ def get_xdg_home() -> Path:
         xdg_home = Path.home().joinpath(".config")
     return Path(xdg_home)
 
-
+# 获取配置目录函数
 def get_config_dir() -> Path:
     match platform.system():
         case "Linux" | "Darwin":
@@ -337,21 +337,21 @@ def get_config_dir() -> Path:
 # Prompts #
 
 shortcut_re = re.compile(r'@(\w+)')
-
+# 提示管理类
 class PromptsManager:
     def __init__(self):
         self.data = {}
-
+        # 从文件加载提示函数
     def load_from_file(self, file_path):
         if os.path.exists(file_path):
             lg.debug(f'load prompts from {file_path}')
             with open(file_path) as f:
                 self.data = json.load(f)
-            lg.debug(f'prompts loaded: {self.data}')
-
+            lg.debug(f'prompts loaded: {self.data}')# 从数据中获取指定角色和名称的提示
+            # 获取提示函数
     def get(self, role, name, default=None):
         return self.data.get(role, {})[name]
-
+    # 格式化提示函数
     def format_prompt(self, prompt, role):
         def handle_match(m):
             try:
@@ -359,7 +359,7 @@ class PromptsManager:
             except KeyError:
                 return m.group(0)
         return shortcut_re.sub(handle_match, prompt)
-
+    # 新消息函数
     def new_message(self, role, prompt):
         return {
             'role': role,
@@ -368,8 +368,9 @@ class PromptsManager:
 
 
 # Session #
-
+# 聊天会话类
 class ChatSession:
+            # 初始化函数，设置API基础URL、API密钥、会话模式、消息列表、模型和参数
     def __init__(self, api_base_url, api_key, conversation=False, messages=None, model=None, params=None):
         self.api_base_url = api_base_url
         self.api_key = api_key
@@ -385,7 +386,7 @@ class ChatSession:
         if not params:
             params = Config.default_params
         self.params = params
-
+      # 设置系统消息，如果存在则替换，不存在则插入新的系统消息
     def set_system_message(self, system_message):
         """Set the system message to the first system message in the session, or insert a new system message if none exists."""
         messages = self.filter_system_messages()
@@ -393,10 +394,10 @@ class ChatSession:
             messages[0]['content'] = system_message['content']
         else:
             self.messages.insert(0, system_message)
-
+        # 过滤并返回所有系统消息
     def filter_system_messages(self):
         return list(filter(lambda x: x['role'] == 'system', self.messages))
-
+        # 处理用户消息，并调用create_completion方法来获取回复，同时处理令牌统计和消息历史
     def chat(self, user_message, params_override=None):
         self.messages.append(user_message)
         res_message, data, messages = self.create_completion(params_override=params_override)
@@ -406,7 +407,7 @@ class ChatSession:
             print(blue(f'tokens: prompt_tokens={data["usage"]["prompt_tokens"]} completion_tokens={data["usage"]["completion_tokens"]} total_tokens={data["usage"]["total_tokens"]}'))
         self.messages.append(res_message)
         return res_message
-
+        # 创建一个请求到API的完成动作，并返回回复消息、响应数据和消息列表
     def create_completion(self, params_override=None) -> tuple[dict, dict, list]:
         url = f'{self.api_base_url}chat/completions'
         headers = {
@@ -441,7 +442,7 @@ class ChatSession:
 
 
 # HTTP request #
-
+# HTTP请求函数 # 发起HTTP请求，并处理响应和异常，返回HTTP响应和响应体
 def http_request(method, url, params=None, headers=None, data: Optional[Union[dict, list, bytes]] = None, timeout=None, logger=None) -> Tuple[HTTPResponse, bytes]:
     if params:
         url = f'{url}?{parse.urlencode(params)}'
@@ -463,25 +464,27 @@ def http_request(method, url, params=None, headers=None, data: Optional[Union[di
         logger.debug(f'response: {res.status}, {body_b}')
     return res, body_b
 
-
+# 请求错误类
 class RequestError(Exception):
+    # 初始化函数，设置HTTP状态和响应体
     def __init__(self, status, body) -> None:
         self.status = status
         self.body = body
-
+        # 返回错误信息的字符串表示
     def __str__(self):
         return f'{self.__class__.__name__}: {self.status}, {self.body}'
 
 
-# Color #
+# Color # # 颜色函数和类
 
+# 生成ANSI转义码
 def esc(*codes: Union[int, str]) -> str:
     """Produces an ANSI escape code from a list of integers
     :rtype: text_type
     """
     return '\x1b[{}m'.format(';'.join(str(c) for c in codes))
 
-
+    # 创建一个颜色函数，可以为字符串添加颜色
 def make_color(start, end: str) -> Callable[[str], str]:
     def color_func(s: str) -> str:
         return start + s + end
@@ -489,7 +492,7 @@ def make_color(start, end: str) -> Callable[[str], str]:
 
 
 END = esc(0)
-
+# 颜色变量 # 定义了一系列的颜色变量，可以用于为文本添加不同的颜色
 FG_END = esc(39)
 black = make_color(esc(30), FG_END)
 red = make_color(esc(31), FG_END)
@@ -528,6 +531,6 @@ underline = make_color(esc(4), esc(24))
 strike = make_color(esc(9), esc(29))
 blink = make_color(esc(5), esc(25))
 
-
+    # 如果该脚本被作为主模块运行，则调用main函数
 if __name__ == '__main__':
     main()

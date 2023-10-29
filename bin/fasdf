@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
 # https://github.com/reegnz/asdfzf
+# 设置严格模式
 set -euo pipefail
-
+# 初始化一些环境变量和路径
 ASDF_DATA_DIR="${ASDF_DATA_DIR:-$HOME/.asdf}"
 ASDF_PLUGIN_PATH="${ASDF_DATA_DIR}/plugins"
 ASDF_INSTALL_PATH="${ASDF_DATA_DIR}/installs"
 ASDF_REPOSITORY_PATH="${ASDF_DATA_DIR}/repository"
-
+# 列出已安装的插件
 __list_installed_plugins() {
     local plugin_dir="${ASDF_PLUGIN_PATH}"
     if [[ -d "${plugin_dir}" ]]; then
@@ -16,11 +17,11 @@ __list_installed_plugins() {
         done | sort
     fi
 }
-
+# 从已安装的插件中选择一个
 __select_installed_plugin() {
     __list_installed_plugins | fzf
 }
-
+# 对已安装的插件和未安装的插件进行颜色标记
 __color_installed() {
     awk '
         BEGIN {
@@ -36,7 +37,7 @@ __color_installed() {
             print red $0 reset;
         }'
 }
-
+# 列出所有支持的插件
 __list_all_supported_plugins() {
     local plugin_dir="${ASDF_REPOSITORY_PATH}/plugins"
     if [[ -d "$plugin_dir" ]]; then
@@ -45,32 +46,32 @@ __list_all_supported_plugins() {
         done
     fi
 }
-
+# 列出所有的插件，包括已安装和未安装的
 __list_all_plugins() {
     join -t ' ' -a 1 \
         <(__list_all_supported_plugins | sort) \
         <(__list_installed_plugins | awk '{print $1 " (installed)"}' | sort) |
         __color_installed
 }
-
+# 显示当前的配置
 __list_current() {
     asdf current 2>&1 | awk '{ print $1,$2 }' | column -t
 }
-
+# 从可用的插件中选择
 __select_available_plugins() {
     plugins=$(__list_all_plugins)
     cat <(echo "$plugins" | grep "installed") \
         <(echo "$plugins" | grep -v "installed") |
         fzf -m --tac --ansi | awk '{ print $1 }'
 }
-
+# 从已安装的插件中选择
 __select_installed_plugins() {
     plugins=$(__list_all_plugins)
     cat <(echo "$plugins" | grep -v "installed") \
         <(echo "$plugins" | grep "installed") |
         fzf -m --tac --ansi | awk '{ print $1 }'
 }
-
+# 过滤版本号
 __version_filter() {
     # Allow user-defined command to filter versions.
     # Custom commands are either per tool with ASDFZF_VERSION_FILTER_COMMAND_plugin
@@ -112,7 +113,7 @@ __version_filter() {
         ;;
     esac
 }
-
+# 列出所有可用版本
 __list_all_versions() {
     version_filter=$(__version_filter "$1")
     join -t ' ' -a 1 \
@@ -120,7 +121,7 @@ __list_all_versions() {
         <(__list_installed_versions "$1" | sort) |
         sort -V | __color_installed
 }
-
+# 列出已安装的版本
 __list_installed_versions() {
     local plugin_dir="${ASDF_INSTALL_PATH}/$1"
     if [[ -d "${plugin_dir}" ]]; then
@@ -129,44 +130,44 @@ __list_installed_versions() {
         done | sort | awk '{print $1 " (installed)"}'
     fi
 }
-
+# 从已安装的版本中选择一个
 __select_installed_version() {
     __list_installed_versions "$1" | __color_installed
     fzf --tac --ansi --no-sort | awk '{ print $1 }'
 }
-
+# 从已安装的版本中选择多个
 __select_installed_versions() {
     __list_installed_versions $1 | __color_installed
     fzf -m --tac --ansi --no-sort | awk '{ print $1 }'
 }
-
+# 从可用的版本中选择
 __select_available_versions() {
     versions=$(__list_all_versions "$1")
     cat <(echo "$versions" | grep "installed") \
         <(echo "$versions" | grep -v "installed") |
         fzf -m --tac --ansi --no-sort | awk '{ print $1 }'
 }
-
+# 获取当前版本
 __get_current_version() {
     set +e
     asdf current terraform | awk '{ print $1 }'
     set -e
 }
-
+# 多任务执行函数
 __multi() {
     xargs -t -r -n 1 "$@"
 }
-
+# 安装插件
 _install() {
     plugin=$(__select_installed_plugin)
     __select_available_versions "$plugin" | __multi asdf install "$plugin"
 }
-
+# 添加插件
 _uninstall() {
     plugin=$(__select_installed_plugin)
     __select_installed_versions "$plugin" | __multi asdf uninstall "$plugin"
 }
-
+# 移除插件
 _plugin-add() {
     __select_available_plugins | __multi asdf plugin-add
 }
@@ -174,33 +175,33 @@ _plugin-add() {
 _plugin-remove() {
     __select_installed_plugins | __multi asdf plugin-remove
 }
-
+# 列出插件
 _list() {
     plugin=$(__select_installed_plugin)
     __list_all_versions "$plugin" | grep installed
 }
-
+# 列出所有插件
 _list-all() {
     plugin=$(__select_installed_plugin)
     __list_all_versions "$plugin"
 }
-
+# 设置全局插件版本
 _global() {
     plugin=$(__select_installed_plugin)
     version=$(__select_installed_version "$plugin")
     asdf global "$plugin" "$version"
 }
-
+# 设置本地插件版本
 _local() {
     plugin=$(__select_installed_plugin)
     version=$(__select_installed_version "$plugin")
     asdf local "$plugin" "$version"
 }
-
+# 显示当前配置
 _current() {
     __list_current | fzf
 }
-
+# 列出所有操作
 __list_operations() {
     cat <<-EOF
 install
@@ -214,11 +215,11 @@ global
 current
 EOF
 }
-
+# 选择一个操作
 __select_operation() {
     __list_operations | fzf
 }
-
+# 主函数
 main() {
     operation=$(__select_operation)
     _$operation

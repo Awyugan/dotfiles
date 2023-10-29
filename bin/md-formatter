@@ -1,52 +1,59 @@
 #!/usr/bin/env bash
 
+# 帮助函数，当脚本参数错误或缺失时显示帮助信息
 helpFunction() {
    echo ""
-   echo "Usage: $0 -a parameterA"
-   echo -e "\t-a parameterA is the path of a Markdown file."
-   exit 1 # Exit script after printing help
+   echo "用法: $0 -a parameterA"
+   echo -e "\t-a parameterA 是 Markdown 文件的路径。"
+   exit 1 # 在打印帮助信息后退出脚本
 }
 
+# 使用getopts解析命令行参数
 while getopts "a:" opt; do
    case "$opt" in
-   a) parameterA="$OPTARG" ;;
-   ?) helpFunction ;; # Print helpFunction in case parameter is non-existent
+   a) parameterA="$OPTARG" ;;  # 设置参数A的值
+   ?) helpFunction ;;  # 当参数不存在时打印帮助函数
    esac
 done
 
-# Print helpFunction in case parameters are empty
+# 如果参数为空，则打印帮助函数
 if [ -z "$parameterA" ]; then
-   echo "Some or all of the parameters are empty"
+   echo "部分或所有参数为空"
    helpFunction
 fi
 
-# Begin script in case all parameters are correct
+# 如果所有参数正确，则开始脚本
 echo "--------------------------------------------------------------------------------"
-echo "The path is $parameterA"
+echo "路径是 $parameterA"
 echo "--------------------------------------------------------------------------------"
 
-read -r -n2 -p "Do you want to continue [Y/N]? " answer
+# 询问用户是否要继续
+read -r -n2 -p "您想要继续吗 [Y/N]? " answer
 case $answer in
 Y | y)
-   echo "Continue"
+   echo "继续"
    ;;
 N | n)
-   echo "Exit"
+   echo "退出"
    ;;
 *)
-   echo "Error"
+   echo "错误"
    ;;
 esac
 
-# file=${parameterA##*/}
-# name=${file%%.*}
+# 从文件路径中提取文件名，不包括扩展名
 name=$(basename $parameterA .md)
+
+# 使用doctor-jones处理Markdown文件内容并输出到新文件
 doctor-jones "$(cat ${parameterA})" >"$name".doctor-jones.md
+
+# 使用zhlint检查Markdown文件语法并输出到新文件
 zhlint "$parameterA" --output="$name".string-zhlint.md
 
 echo "--------------------------------------------------------------------------------"
-echo "可用 VS Code format Markdown syntax"
+echo "使用 VS Code 格式化 Markdown 语法"
 echo "--------------------------------------------------------------------------------"
 
+# 安装必要的npm包
 # npm install -g markdownlint-cli
 # npm install lint-md -g

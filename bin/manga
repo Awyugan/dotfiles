@@ -5,6 +5,7 @@
 # pip install -r requirements.txt
 # pip install git+https://github.com/lucasb-eyer/pydensecrf.git
 # brew install freetype
+# 以下脚本用于设置和运行 manga-image-translator，它可以批量翻译漫画图像。
 
 VERBOSE=0
 MODE="batch"
@@ -13,17 +14,19 @@ TARGET_LANG="CHS"
 INPUT=""
 
 print_help() {
+    # 显示帮助信息
     echo "Usage: $(basename "$0") [-v] [-m mode] [-t translator] [-l language] [-i input_directory]"
     echo ""
     echo "Options:"
-    echo "  -v            Enable verbose mode (Optional)"
-    echo "  -m mode       Set the mode, default is 'batch' (Optional)"
-    echo "  -t translator Set the translator, default is 'gpt3.5' (Optional)"
-    echo "  -l language   Set the target language, default is 'CHS' (Optional)"
-    echo "  -i directory  Set the input manga directory (Required)"
+    echo "  -v            开启详细模式 (可选)"
+    echo "  -m mode       设置模式，默认为 'batch' (可选)"
+    echo "  -t translator 设置翻译器，默认为 'gpt3.5' (可选)"
+    echo "  -l language   设置目标语言，默认为 'CHS' (可选)"
+    echo "  -i directory  设置输入的漫画目录 (必须)"
 }
 
 while getopts ":vm:t:l:i:h" opt; do
+    # 解析命令行选项
     case $opt in
     v) VERBOSE=1 ;;
     m) MODE="$OPTARG" ;;
@@ -48,6 +51,7 @@ while getopts ":vm:t:l:i:h" opt; do
 done
 
 if [ -z "$INPUT" ]; then
+    # 检查是否提供了输入目录
     echo "Error: Input directory is required."
     print_help
     exit 1
@@ -75,3 +79,4 @@ echo "Translating $MANGA_DIR"
 export DYLD_LIBRARY_PATH="$HOMEBREW_PREFIX/lib:$DYLD_LIBRARY_PATH"
 
 cd "$FOLDER_PATH" && $PYTHON_EXEC -m manga_translator "${ARGS[@]}"
+# 切换到 manga-image-translator 的目录并运行 manga_translator 模块

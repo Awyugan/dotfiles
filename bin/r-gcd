@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
+# 提示用户输入提交日期
 echo "Enter commit date (e.g. Wed Feb 7 12:00 2014 +0100):"
 read -r commit_date
 
+# 提示用户输入提交信息
 echo "Enter commit message:"
 read -r commit_message
 
+# 设置GIT_AUTHOR_DATE和GIT_COMMITTER_DATE环境变量，并提交一个commit
 GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit --date "$commit_date" -m "$commit_message"
+

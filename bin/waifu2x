@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
+# 定义waifu2x应用的路径
 WAIFU2X_APP="/Applications/waifu2x.app"
 
+# 检查waifu2x应用是否存在
 if [ ! -d "${WAIFU2X_APP}" ]; then
     echo "waifu2x.app not found"
     exit 1
 fi
 
+# 运行waifu2x应用
 "${WAIFU2X_APP}/Contents/MacOS/waifu2x" "$@"
