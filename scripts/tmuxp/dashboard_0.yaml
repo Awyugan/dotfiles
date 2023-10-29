@@ -1,9 +1,9 @@
-session_name: dashboard_0
+session_name: dashboard_0  # 会话名称：dashboard_0
 windows:
-  - window_name: dashboard_0
-    layout: tiled
-    panes:
-      - yacron -c "$HOME"/dotfiles/scripts/yacron/job_0.yaml
-      - echo "Hello"
-      - echo "Hello"
-      - echo "Hello"
+  - window_name: dashboard_0  # 窗口名称：dashboard_0
+    layout: tiled  # 布局：平铺
+    panes:  # 窗格
+      - yacron -c "$HOME"/dotfiles/scripts/yacron/job_0.yaml  # 运行 yacron 任务
+      - echo "Hello"  # 输出 "Hello"
+      - echo "Hello"  # 输出 "Hello"
+      - echo "Hello"  # 输出 "Hello"

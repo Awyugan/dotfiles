@@ -1,27 +1,27 @@
 jobs:
-  - name: backup homebrew packages (bundle)
+  - name: backup homebrew packages (bundle)  # 任务名：备份 homebrew 包（bundle）
     command: |
-      brew bundle dump --file="$HOME"/dotfiles/assets/others/packages/Brewfile --force
-    shell: /bin/zsh
-    schedule: "0 1,13,20 * * *"
-    captureStderr: true
+      brew bundle dump --file="$HOME"/dotfiles/assets/others/packages/Brewfile --force  # 命令：将 homebrew 包列表导出到指定文件
+    shell: /bin/zsh  # 使用的 shell：zsh
+    schedule: "0 1,13,20 * * *"  # 调度：每天的 1点，13点和20点执行
+    captureStderr: true  # 捕获标准错误输出
     onFailure:
       report:
         shell:
           shell: /bin/zsh
-          command: echo "Error code $YACRON_RETCODE"
-  - name: backup homebrew packages (leaves)
+          command: echo "Error code $YACRON_RETCODE"  # 失败时执行的命令：输出错误码
+  - name: backup homebrew packages (leaves)  # 任务名：备份 homebrew 包（leaves）
     command: |
-      brew leaves >"$HOME"/dotfiles/assets/others/packages/Brewfile.txt
-    shell: /bin/zsh
-    schedule: "0 1,13,20 * * *"
-    captureStderr: true
+      brew leaves >"$HOME"/dotfiles/assets/others/packages/Brewfile.txt  # 命令：将 homebrew leaves 命令的输出保存到指定文件
+    shell: /bin/zsh  # 使用的 shell：zsh
+    schedule: "0 1,13,20 * * *"  # 调度：每天的 1点，13点和20点执行
+    captureStderr: true  # 捕获标准错误输出
     onFailure:
       report:
         shell:
           shell: /bin/zsh
-          command: echo "Error code $YACRON_RETCODE"
-  - name: backup cargo packages
+          command: echo "Error code $YACRON_RETCODE"  # 失败时执行的命令：输出错误码
+  - name: backup cargo packages # 任务名：备份 cargo 包
     command: |
       cargo install --list | grep -v '^[[:blank:]]' | awk '{print $1}' >"$HOME"/dotfiles/assets/others/packages/cargo.txt
     shell: /bin/zsh
@@ -32,7 +32,7 @@ jobs:
         shell:
           shell: /bin/zsh
           command: echo "Error code $YACRON_RETCODE"
-  - name: backup applications
+  - name: backup applications # 备份应用程序
     command: |
       ls /Applications | rg '\.app' | sed 's/\.app//g' >"$HOME"/dotfiles/assets/others/packages/macos_applications.txt
       ls /Applications/Setapp | rg '\.app' | sed 's/\.app//g' >"$HOME"/dotfiles/assets/others/packages/macos_setapp.txt
@@ -44,7 +44,7 @@ jobs:
         shell:
           shell: /bin/zsh
           command: echo "Error code $YACRON_RETCODE"
-  - name: backup npm packages
+  - name: backup npm packages # 备份npm包
     command: |
       npm list --location=global --json | jq ".dependencies | keys[]" -r >"$HOME"/dotfiles/assets/others/packages/npm.txt
     shell: /bin/zsh
@@ -55,7 +55,7 @@ jobs:
         shell:
           shell: /bin/zsh
           command: echo "Error code $YACRON_RETCODE"
-  - name: backup pipx packages
+  - name: backup pipx packages # 备份pipx包
     command: |
       pipx list --json | jq ".venvs | .[] | .metadata.main_package.package" -r >"$HOME"/dotfiles/assets/others/packages/pipx.txt
     shell: /bin/zsh
@@ -66,7 +66,7 @@ jobs:
         shell:
           shell: /bin/zsh
           command: echo "Error code $YACRON_RETCODE"
-  - name: backup vscode extensions
+  - name: backup vscode extensions # 备份vscode扩展
     command: |
       code --list-extensions >"$HOME"/dotfiles/assets/others/packages/vscode_extensions.txt
     shell: /bin/zsh
@@ -77,8 +77,8 @@ jobs:
         shell:
           shell: /bin/zsh
           command: echo "Error code $YACRON_RETCODE"
-  - name: backup zsh_history
+  - name: backup zsh_history # 备份zsh历史记录
     command: |
-      cp "$HOME"/.zsh_history "$HOME"/Databases/Backup/CLI/zsh_history_$(date +\%Y_\%m_\%d_\%H_\%M_\%S).bak
+      cp "$HOME"/.zsh_history "$HOME"/Databases/Backup/CLI/zsh_history_$(date +\%Y_\%m_\%d_\%H_\%M_\%S).bak # 涉及隐私，不储存在本dotfiles中，请使用time math（时间机器）同步。
     shell: /bin/zsh
     schedule: "0 * * * *"

@@ -1,0 +1,1 @@
+# config/README.md## 文件结构├── README.md 本文├── mackup└── shell    ├── init.sh    ├── mac    │   ├── zprofile.sh    │   └── zshrc.sh    ├── zsh_aliases.sh    ├── zsh_completion    │   ├── _cheat    │   └── _rustup    ├── zsh_completion.sh    ├── zsh_env.sh    └── zsh_functions.sh

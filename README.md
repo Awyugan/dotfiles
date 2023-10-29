@@ -25,13 +25,17 @@
 2. 将仓库 Clone 至 `$HOME/dotfiles`，如果本地不存在的话；
 ```
 git clone {仓库链接} "$HOME"/dotfiles
-例如 git clone https://github.com/Awyugan/dotfiles.git "$HOME"/dotfiles
 ```
-3. 把[我的仓库打包下载](https://github.com/Awyugan/dotfiles)
-将其中的文件拖入你的"$HOME"/dotfiles中，
+例如 git clone https://github.com/Awyugan/dotfiles.git "$HOME"/dotfiles
 
+3. 点击把[我的仓库打包下载](https://github.com/Awyugan/dotfiles/archive/refs/heads/main.zip)
+将其中的文件拖入你的"$HOME"/dotfiles中，访问每个子文件的 Readme.md 和注释，确认了解运行的原理。
 
-执行 bootstrap 脚本。
+4. 你需要修改的内容，以##特殊标注，可全文搜索`#//`
+
+ - bootstrap.sh 中的 git链接
+
+执行 bootstrap 脚本，这是一个一键启动的指令。需要使它可执行`chmod +x bootstrap.sh`
 
 如果是 macOS 新用户，可能需要安装 XCode Command Line Tools。
 

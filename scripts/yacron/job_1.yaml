@@ -1,24 +1,25 @@
 jobs:
-  - name: kill input method
+  - name: kill input method  # 任务名：结束输入法进程
     command: |
-      kill -9 'pgrep SCIM'
-      kill -9 'pgrep Spotlight'
-    shell: /bin/zsh
-    schedule: "0 */2 * * *"
-    captureStderr: true
+      kill -9 'pgrep SCIM'  # 命令：结束 SCIM 输入法进程
+      kill -9 'pgrep Spotlight'  # 命令：结束 Spotlight 进程
+    shell: /bin/zsh  # 使用的 shell：zsh
+    schedule: "0 */2 * * *"  # 调度：每两小时执行一次
+    captureStderr: true  # 捕获标准错误输出
     onFailure:
       report:
         shell:
           shell: /bin/zsh
-          command: echo "Error code $YACRON_RETCODE"
-  # - name: kill ScreenTimeAgent
+          command: echo "Error code $YACRON_RETCODE"  # 失败时执行的命令：输出错误码
+  # 下面的任务被注释掉了，如果需要启用，可以删除前面的 '#' 符号
+  # - name: kill ScreenTimeAgent  # 任务名：结束 ScreenTimeAgent 进程
   #   command: |
-  #     launchctl kickstart -k gui/$UID/com.apple.ScreenTimeAgent
-  #   shell: /bin/zsh
-  #   schedule: "0 * * * *"
-  #   captureStderr: true
+  #     launchctl kickstart -k gui/$UID/com.apple.ScreenTimeAgent  # 命令：通过 launchctl 结束 ScreenTimeAgent 进程
+  #   shell: /bin/zsh  # 使用的 shell：zsh
+  #   schedule: "0 * * * *"  # 调度：每小时执行一次
+  #   captureStderr: true  # 捕获标准错误输出
   #   onFailure:
   #     report:
   #       shell:
   #         shell: /bin/zsh
-  #         command: echo "Error code $YACRON_RETCODE"
+  #         command: echo "Error code $YACRON_RETCODE"  # 失败时执行的命令：输出错误码

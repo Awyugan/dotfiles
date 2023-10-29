@@ -1,9 +1,9 @@
-session_name: dashboard_1
+session_name: dashboard_1  # 会话名称：dashboard_1
 windows:
-  - window_name: dashboard_1
-    layout: tiled
-    panes:
-      - r-unm
-      - r-archivebox
-      - r-deepl
-      - echo "Hello"
+  - window_name: dashboard_1  # 窗口名称：dashboard_1
+    layout: tiled  # 布局：平铺
+    panes:  # 窗格
+      - r-unm  # 执行 r-unm 命令
+      - r-archivebox  # 执行 r-archivebox 命令
+      - r-deepl  # 执行 r-deepl 命令
+      - echo "Hello"  # 输出 "Hello"
