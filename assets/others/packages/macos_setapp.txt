@@ -1,0 +1,57 @@
+Aeon Timeline
+AirBuddy
+Bartender
+BetterTouchTool
+BetterZip
+CleanMyMac X
+CleanShot X
+Dash
+Dato
+DevUtils
+Disk Drill
+Downie
+Due
+Expressions
+Focus
+ForkLift
+Gemini
+Gifox
+Hookmark
+HoudahSpot
+Hustl
+Image2icon
+Keysmith
+Luminar Neo
+Lungo
+MarginNote
+MenubarX
+Meta
+MetaImage
+MindNode
+Mockuuups Studio
+Numi
+One Switch
+PDF Search
+Permute
+PhotoBulk
+PopClip
+Presentify
+Proxyman
+RapidAPI
+Renamer
+SQLPro Studio
+SQLPro for SQLite
+SSH Config Editor
+SnippetsLab
+Spark Mail
+Squash
+TablePlus
+Taskheat
+TextSoap
+Timing
+Ulysses
+Vivid
+WiFi Explorer
+XCOrganizer
+Yoink
+iStat Menus

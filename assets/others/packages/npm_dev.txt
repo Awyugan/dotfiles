@@ -1,0 +1,6 @@
+cnpm
+jshint
+npm
+pnpm
+typescript
+yarn

@@ -1,0 +1,24 @@
+# gitignore
+
+# AIDER
+.aider*
+
+# backup
+automatic_backups
+
+# bin (编译的二进制文件）
+bin/cwim
+bin/feishu2md
+bin/nnn
+bin/redo
+bin/warpd
+bin/wayback
+bin/webtty
+
+# bin (downloaded binaries)
+
+# log
+*.log
+
+# zsh
+config/shell/zsh_env_private.sh
