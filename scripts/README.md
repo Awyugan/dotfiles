@@ -23,14 +23,33 @@ Mac系统主要使用[bootstrap_mac.sh](bootstrap_mac.sh)
    - [tmux](https://github.com/tmux/tmux) 用于终端多路复用。执行一键命令`bootstrap.sh`时会自动安装.
    - [yacron](https://github.com/gjcarneiro/yacron) 用于运行 cron 任务（如果使用 `job_0.yaml`）。
 
-2. 启动 tmux 会话并加载配置：
+2. **启动 tmux 会话并加载配置**：
    ```
    tmux new-session -s dashboard_0 -c dashboard_0.yaml
    # 或
    tmux new-session -s dashboard_1 -c dashboard_1.yaml
    ```
+3. 重新连接到会话:
+当你再次打开终端并想重新连接到之前的 tmux 会话时，你可以使用以下命令：
+`tmux attach-session -t dashboard_0` 或 `tmux attach-session -t dashboard_1 `这会让你重新连接到名为` dashboard_0 `或` dashboard_1 `的 tmux 会话。
 
-3. 一旦进入 tmux 会话，指定的窗格和命令将自动运行。要获取有关配置和自定义 tmux 或 yacron 的更多详细信息，请参阅各自的文档。
+4. 列出活动会话:
+如果你忘记了你的会话名，或者想看看哪些 tmux 会话正在运行，你可以使用以下命令：
+```
+tmux list-sessions
+```
+这会列出所有当前活动的 tmux 会话。
+
+5. 关闭 tmux 会话:
+
+如果你想完全关闭 tmux 会话及其所有进程，你需要首先重新连接到该会话，然后按 Ctrl-b 然后输入 :，之后输入 kill-session 命令并按回车。也可以直接使用以下命令来关闭特定的 tmux 会话：
+```
+tmux kill-session -t dashboard_0
+tmux kill-session -t dashboard_1
+```
+通过这些命令，你可以在关闭终端后管理你的 tmux 会话，重新连接到它们，或完全关闭它们。
+
+6. 一旦进入 tmux 会话，指定的窗格和命令将自动运行。要获取有关配置和自定义 tmux 或 yacron 的更多详细信息，请参阅各自的文档。
 
 ## Dotfiles Bootstrap 脚本
 
