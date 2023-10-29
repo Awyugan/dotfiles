@@ -1,206 +1,205 @@
-1Password for Safari
-1Password
-A Better Finder Attributes 7
-Affinity Photo 2
+ABBYY FineReader PDF
+Adguard
+AlDente
 Alacritty
 Alfred 5
-AltTab
 Amethyst
 Anki
-Apparency
+Another Redis Desktop Manager
+AntConc
+AppCleaner
 Arc
-Audio Hijack
-BaiduNetdisk
-BetterDisplay
-Bezel
-Blackmagic Disk Speed Test
-Blackmagic Media Express
-Blender
+ArcTime Pro
+BaiduNetdisk_mac
+Bartender 4
+Battery Indicator
 Bob
-Capture One 23
-Chromium
-ClashX Pro
-ClassIn
-Cloudflare WARP
-Compressor
-Contexts
-Cron
-Cryptomator
-Cursor
+Book Searcher
+CAJViewer
+CORE Keygen
+Capto
+Charles
+ChronoSync
+Cisdem PDFMaster
+CiteSpace
+ClashX
+CleanerOnePro
+Cold Turkey Blocker
+Crax-DEMO
+DB Browser for SQLite
+DBeaver
 DEVONthink 3
-DaisyDisk
-Day One
-DeepL
-DevCleaner
+Dash
+Dato
+Default Folder X
 Developer
-Dice by PCalc
 Discord
-Drafts
+Disk Drill
+DjVu Reader Pro
+DjVu Viewer + DjVu to PDF
+Downie 4
 Dropbox
+Dropover
 Eagle for Safari
 Eagle
-Emacs
-Espanso
 Eudic
-Evernote
 Exporter
-Fantastical
-Fig
-Figma
-Final Cut Pro
-Flighty
-Fork
-Fritzing
-GarageBand
+FastoNoSQL
+Flamingo
+FlashDownloadDesktop
+Geekbench 5
+Gemini 2
+Gephi
 GitHub Desktop
+GithubPulse
+GoodNotes
 Google Chrome
-Google Docs
-Google Drive
-Google Sheets
-Google Slides
-HEY
-Hammerspoon
-Heptabase
-Homerow
-Hush
-IINA
-IconChanger
+Grammarly for Safari
+HandBrake
+HazeOver
+Huntly
+ICBC_MS_SafeCheck
 Immersive Translate
 Input Source Pro
-Itsycal
-JetBrains Toolbox
-Karabiner-Elements
-Karabiner-EventViewer
-KeyCastr
+Insomniac
+Install Linear
 Keyboard Maestro
 Keynote
-LTspice
-LanguageTool for Desktop
 Lark
-LayAuto3
 Linear
-LinearMouse
-Logic Pro X
+Lingocloud for Safari
+Linguan
+LocalSend
+Logi Bolt
+LogiTune
 Logseq
-Loom
-LosslessCut
-LyricsX
-MWeb Pro
-MacWhisper
-MainStage 3
-Maipo
-Mathpix Snipping Tool
+Loopback
+Mac Mouse Fix
+MacForge
+MacUpdater
+MacZip
+MarginNote 3
+MediaInfo
+Medis
+MenubarX
 MessAuto
-Microsoft Excel
-Microsoft PowerPoint
-Microsoft Remote Desktop
-Microsoft Teams
-Microsoft Word
-Milanote
-Mochi Diffusion
-Monodraw
+MetWord.extension
+Microsoft Edge Dev
+Moom
 Mos
-Motion
-MultiMC
-MusicHarbor
-NeteaseMusic
-Notion
+Motrix
+Mousecape
+Movavi Screen Recorder 21
+Movavi Sound Grabber Uninstaller
+NameChanger
+Navicat Premium
+NeatDownloadManager
+NetNewsWire
+NewsGuard
 Numbers
+Nutstore
 OBS
 Obsidian
+OmegaT
+OmniConverter
 OmniGraffle
-OmniOutliner
-OmniPlan
+OmniPlayer
+OmniRecorder
+One Switch
 OneDrive
-OnyX
-Optimus Player
-OrbStack
-PDF Expert
+OwlOCR
+PDF Reader Pro
+PDF Squeezer
 Pages
-Parallels Desktop
-Parsec
+Pap.er
 PasteNow
-Photomator
+Permute 3
 PicGo
-Pocket Casts
-PocketTube
-PowerShell
-ProNotes
-Proton Mail Bridge
-ProtonVPN
-QLMarkdown
+PopClip
+PotPlayerX
 QQ
-QuickLook Video
-Raindrop.io
-Raycast
-Rectangle
-RemNote
-Rewind
-Rize
-Roam Research
-RustDesk
+QSpace Pro
+Qbserve
+Quicksilver
+R
+RStudio
+RedisInsight-v2
+Renamer
+RunCat
+SF Symbols beta
 Safari
-Save to Raindrop.io
-Scapple
-ScreenFlow
-Scrolla
-Setapp
-Shadowrocket
-Shapr3D
-Shottr
-Sideloadly
-Silicon
-Skim
+SafeInputApp
+ShadowsocksX-NG
+Short Menu_v_3.0.4
 Slack
-Sloth
-Sniffnet
-SoundSource
-Steam
-Surge
+Snagit 2022
+Stay
 Suspicious Package
-Syntax Highlight
 Tampermonkey
 Telegram
+Tencent Lemon
 TencentMeeting
 Termius
-Texts
+TextMate
+TextScanChannel
 Things3
-Tito Control
-Todoist
-Tonal
-TradingView
-Tunnelblick
-UninstallPKG
-Unity Hub
-Viable
-Vimari
-VirtualBuddy
+ToDesk
+Tor Browser
+Translatium
+TrojanX
+Typeface
+Typinator
+Typora
+Uninstall iShowU Audio Capture
+Userscripts
+V2rayU
+VideoConverterX
 Visual Studio Code
-Warp
+WD Security Uninstaller
+WD Security
 WeChat
+WeRead
 WechatExporter
-Wooshy
-WorkFlowy
-XLD
+Winclone
+Wine Devel
+XMind
 Xcode
 Xcodes
-YACReader
-ZeroTier
-Zotero-6
+Zed Preview
+Zed
+Zettlr
+Zotero 7
 Zotero
-bloop
+aDrive
+aiwriter
+alist-desktop
 calibre
-draw.io
-iA Presenter
+i4tools
+iFLYBUDS
 iMazing
-iMovie
+iPhone Backup Extractor
+iShot
 iTerm
-kindaVim
+irreader
 logioptionsplus
-qBittorrent
-uBlacklist for Safari
+one sec
+oss-browser
+pdfdir_mac
+pyTranscriber-v1.8-mac
+qbittorrent
+redis-pro
+texmaker
 uPic
-waifu2x
-waifuExtension
+wpsoffice
+wxbackup
 zoom.us
+zoommy
+简悦 · 同步助手
+图压
+影刀
+赤友NTFS助手
+微文档
 企业微信
+讯飞听见
+后羿采集器
+八爪鱼采集器
