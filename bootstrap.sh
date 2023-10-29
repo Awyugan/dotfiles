@@ -11,7 +11,7 @@ function setup_dotfiles {
   echo "${BLUE}Cloning dotfiles...${NORMAL}"
 # 克隆最新的提交记录到本地，而不是所有的历史记录
   git clone --depth 1 https://github.com/awyugan/dotfiles.git "$HOME"/dotfiles
-# 这一行改为你的仓库链接
+## 这一行改为你的仓库链接
 }
 
 function bootstrap {

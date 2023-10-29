@@ -92,15 +92,8 @@ rm -rf brew-install
 # 安装成功后需将 Homebrew 的相关路径加入到环境变量中。如何添加环境变量请参考 Homebrew 命令行输出。
 ```
 
-### Ubuntu 配置指南
-
-```shell
-git clone --depth 1 https://github.com/ipruning/dotfiles.git "$HOME"/dotfiles && source "$HOME"/dotfiles/scripts/bootstrap_linux.sh
-```
-
 ### Arch 配置指南
 
 ## ChangeLog
 
-- 2022-05-25 Update README
-- 2022-03-01 Make the repo public
+- 20231029 初始化文档
