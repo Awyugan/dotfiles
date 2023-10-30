@@ -15,7 +15,7 @@ mac_arm64 | mac_x86_64)
   # 👇 cz completions
   # 👇 cz 自动补全设置
   #===============================================================================
-  # eval "$(register-python-argcomplete cz)"
+   eval "$(register-python-argcomplete cz)"
 
   #===============================================================================
   # 👇 pipx completions
@@ -24,3 +24,4 @@ mac_arm64 | mac_x86_64)
   # eval "$(register-python-argcomplete pipx)"
   ;;
 esac
+#//[oh-my-zsh] Insecure completion-dependent directories detected:

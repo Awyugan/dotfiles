@@ -100,3 +100,9 @@ r-upgrade() {
   rustup update
   wget https://raw.githubusercontent.com/reorx/ai.py/master/ai.py -O "${HOME}"/Dotfiles/bin/ai && chmod +x "${HOME}"/Dotfiles/bin/ai
 }
+
+#================
+
+alias zshconfig="mate ~/.zshrc"
+alias deploy='/Users/polan/awyugan/B.MyCreate/B.2_Blog/awyugan.github.io/deploy.sh'
+alias hugoai='/Users/polan/awyugan/B.MyCreate/B.2_Blog/awyugan.github.io/hugoai.sh'
