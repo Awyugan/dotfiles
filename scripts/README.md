@@ -2,9 +2,9 @@
 
 Mac系统主要使用[bootstrap_mac.sh](bootstrap_mac.sh)
 
-## 仪表板配置和执行指南
+## Step1: 仪表板配置和执行指南
 
-本仓库包含了两个仪表板会话的配置文件，`dashboard_0` 和 `dashboard_1`，每个会话都有其自己的窗格，运行指定的命令。
+本scripts包含了两个仪表板会话的配置文件，`dashboard_0` 和 `dashboard_1`，每个会话都有其自己的窗格，运行指定的命令。
 
 ### 文件结构
 
@@ -51,7 +51,7 @@ tmux kill-session -t dashboard_1
 
 6. 一旦进入 tmux 会话，指定的窗格和命令将自动运行。要获取有关配置和自定义 tmux 或 yacron 的更多详细信息，请参阅各自的文档。
 
-## Dotfiles Bootstrap 脚本
+## Setp2: Dotfiles Bootstrap 脚本
 
 这个脚本可以帮助你在 macOS 系统上快速设置和安装你的开发环境和常用软件。
 
@@ -61,6 +61,15 @@ tmux kill-session -t dashboard_1
 2. 安装一系列实用的 zsh 插件。
 3. 安装 [Homebrew](https://brew.sh/) 并通过 Brewfile 安装常用的开发工具和软件。
 4. 安装 [mackup](https://github.com/lra/mackup) 并恢复你的配置文件。
+	第一次使用需要你手动配置mackup，在官方说明中，可以找到。对于新手来说，补充几点：
+
+	在终端中，运行命令 vi ~/.mackup.cfg 来打开文件。按 i 键进入插入模式，这允许你编辑文件。
+
+	输入官方示例path = $HOME"/dotfiles/config/mackup/"，按 Esc 键退出插入模式。
+	键入 :wq 然后按 Enter 键，这将保存你的更改并退出 vi 编辑器。
+	如果你只想保存文件而不退出，可以键入 :w 然后按 Enter 键。
+	如果你想退出而不保存更改，可以键入 :q! 然后按 Enter 键。
+	现在，你应该已经成功地保存了 path 配置到 ~/.mackup.cfg 文件中。
 5. 安装 [asdf](https://asdf-vm.com/#/) 版本管理器以及一系列语言插件，并安装指定版本的语言运行时。
 6. 安装一些常用的 cargo, npm, 和 pipx 包。
 7. 安装 [oh-my-tmux](https://github.com/gpakosz/.tmux) 和 [Doom Emacs](https://github.com/hlissner/doom-emacs) 的配置。
