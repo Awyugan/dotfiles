@@ -10,9 +10,11 @@
 
 根据 scripts/README.md 运行相关指令
 
-## Bootstrap一键装机
+## Bootstrap引导
 
-1. 创建一个新[Github仓库](https://github.com/new)
+[bootstrap.sh](bootstrap.sh)是一个一键装机脚本，具体功能可以看[bootstrap_readme.md](bootstrap_readme.md)。第一次使用时，你可以进行一下步骤：
+
+1. 创建一个[新Github仓库](https://github.com/new)
 2. 将仓库 Clone 至 `$HOME/dotfiles`，如果本地不存在的话；
 ```
 git clone {仓库链接} "$HOME"/dotfiles
@@ -21,10 +23,17 @@ git clone {仓库链接} "$HOME"/dotfiles
 
 3. 点击把[我的仓库打包下载](https://github.com/Awyugan/dotfiles/archive/refs/heads/main.zip)
 将其中的文件拖入你的"$HOME"/dotfiles中，访问每个子文件的 Readme.md 和注释，确认了解运行的原理。
+你需要修改bootstrap.sh 中的 git链接，其他需要修改的内容，以##特殊标注，可全文搜索`#//`，一些暂时不启用的内容也使用这个方式标注。
 
-4. 你需要修改的内容，以##特殊标注，可全文搜索`#//`
+4. 运行命令
 
- - bootstrap.sh 中的 git链接
+````
+git add .
+git commit -m "First"
+git push
+````
+
+5. 第一次不要运行bootstrap.sh
 
 执行 bootstrap 脚本，这是一个一键启动的指令。需要使它可执行`chmod +x bootstrap.sh`
 
@@ -65,26 +74,32 @@ xcode-select --install
 
 如果你不能 🔬 🧗‍♀️ 则建议使用清华大学提供的 Homebrew 镜像，具体请参考[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)。
 
-```shell
-# 把默认 Shell 从 Bash 改为 ZSH。
+```
+ # 把默认 Shell 从 Bash 改为 ZSH。
+
 chsh -s $(which zsh)
 
-# 暂时关闭 SSL 证书验证。之后请手动开启。
+ # 暂时关闭 SSL 证书验证。之后请手动开启。
+
+git config --global http.sslVerify "false"
 git config --global http.sslVerify "false"
 
-# 配置清华镜像环境变量
+ # 配置清华镜像环境变量
+
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
 
-# 使用清华镜像的安装脚本安装 Homebrew
+ # 使用清华镜像的安装脚本安装 Homebrew
+
 git clone --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install
 /bin/bash brew-install/install.sh
 
-# 删除安装时产生的临时文件
+ # 删除安装时产生的临时文件
+
 rm -rf brew-install
 
-# 安装成功后需将 Homebrew 的相关路径加入到环境变量中。如何添加环境变量请参考 Homebrew 命令行输出。
+ # 安装成功后需将 Homebrew 的相关路径加入到环境变量中。如何添加环境变量请参考 Homebrew 命令行输出。
 ```
 
 ### Arch 配置指南

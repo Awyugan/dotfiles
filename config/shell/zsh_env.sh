@@ -98,12 +98,12 @@ zstyle ':fzf-tab:*' fzf-pad 10
 #===============================================================================
 # 👇 gcloud 自定义键绑定
 #===============================================================================
-case $SYSTEM_TYPE in
-mac_arm64 | mac_x86_64)
-  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
-  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-  ;;
-esac
+#case $SYSTEM_TYPE in
+#mac_arm64 | mac_x86_64)
+#  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+#  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+#  ;;
+#esac
 
 #===============================================================================
 # 👇 colima & docker
@@ -131,8 +131,8 @@ mac_arm64)
   source "$(brew --prefix fzf)/shell/key-bindings.zsh"
   ;;
 mac_x86_64)
-  source "/opt/homebrew/opt/fzf/shell/completion.zsh"
-  source "/opt/homebrew/opt/fzf/shell/key-bindings.zsh"
+  source "$(brew --prefix fzf)/shell/completion.zsh"
+  source "$(brew --prefix fzf)/shell/key-bindings.zsh"
   ;;
 linux_x86_64)
   source "$(brew --prefix fzf)/shell/completion.zsh"
