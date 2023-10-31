@@ -98,3 +98,7 @@ tmux kill-session -t dashboard_1
 ## 许可
 
 本项目采用 MIT 许可证，查看 [LICENSE](LICENSE) 文件以获得更多信息。
+
+## Changelog
+
+- 20231031 `job_0`、`bootstrap_mac.sh`添加pip、pip3的备份&安装
