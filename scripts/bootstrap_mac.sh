@@ -118,26 +118,17 @@ function main {
   # 读取pipx_dev.txt文件，并执行pipx install命令安装包
   xargs <"$HOME"/dotfiles/assets/others/packages/pipx_dev.txt -n 1 pipx install
 
+
+  # 输出安装pip3包
+  echo "${BLUE}Installing pip3 packages${NORMAL}"
+  pip3 install -r "$HOME"/dotfiles/assets/others/packages/pip3.txt
   # 输出安装其他包的信息
   echo "${BLUE}Installing other packages${NORMAL}"
 
   # 输出安装tmux配置的信息
   echo "${BLUE}Installing tmux configuration (oh-my-tmux)${NORMAL}"
   # 克隆oh-my-tmux仓库并创建指向配置文件的符号链接
-  git clone https://github.com/gpakosz/├── README.md
-├── mackup
-└── shell
-    ├── init.sh
-    ├── mac
-    │   ├── zprofile.sh
-    │   └── zshrc.sh
-    ├── zsh_aliases.sh
-    ├── zsh_completion
-    │   ├── _cheat
-    │   └── _rustup
-    ├── zsh_completion.sh
-    ├── zsh_env.sh
-    └── zsh_functions.sh.git "$HOME"/.tmux
+  git clone https://github.com/gpakosz/.tmux
   ln -sf "$HOME"/.tmux/.tmux.conf "$HOME"/.tmux.conf
 
   # 输出安装emacs配置的信息
