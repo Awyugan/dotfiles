@@ -66,6 +66,28 @@ jobs:
         shell:
           shell: /bin/zsh
           command: echo "Error code $YACRON_RETCODE"
+  - name: backup pip packages # 备份pip包
+    command: |
+	  pip list --format=json | jq ".[] | .name" -r >"$HOME"/dotfiles/assets/others/packages/pip.txt
+    shell: /bin/zsh
+    schedule: "0 1,13,20 * * *"
+    captureStderr: true
+    onFailure:
+      report:
+        shell:
+          shell: /bin/zsh
+          command: echo "Error code $YACRON_RETCODE"
+  - name: backup pip packages # 备份pip3包
+    command: |
+	  pip3 freeze > "$HOME"/dotfiles/assets/others/packages/pip3.txt
+    shell: /bin/zsh
+    schedule: "0 1,13,20 * * *"
+    captureStderr: true
+    onFailure:
+      report:
+        shell:
+          shell: /bin/zsh
+          command: echo "Error code $YACRON_RETCODE"
   - name: backup vscode extensions # 备份vscode扩展
     command: |
       code --list-extensions >"$HOME"/dotfiles/assets/others/packages/vscode_extensions.txt
