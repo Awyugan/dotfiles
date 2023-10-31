@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby20 -w
+
+# This script is run from `TM_MARKDOWN_POST_FILTER`: It receives the already
+# rendered markdown document via $stdin and is expected to output a filtered
+# version to $stdout. In our case we simply append the script tags necessary to
+# include and configure MathJax.
+
+puts $stdin.read
+puts <<-SCRIPT
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ["$","$"], ["\\\\(","\\\\)"] ],
+        displayMath: [ ["$$","$$"], ["\\\\[","\\\\]"] ],
+        processEscapes: false
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  </script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+SCRIPT

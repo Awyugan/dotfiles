@@ -1,0 +1,56 @@
+{
+  "add a plugin dialog": "/Users/polan/Downloads",
+  "add books dialog dir": "/Users/polan/Documents/awyugan.com/book.awyugan.com",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "choose library location": "/Users/polan/awyugan/D.MyLibrary/图书库/lifede",
+  "library moved choose new loc": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "6.4",
+      "6.10",
+      "6.17",
+      "6.7",
+      "6.14",
+      "6.8",
+      "6.5",
+      "5.44",
+      "5.43",
+      "6.15"
+    ]
+  },
+  "s_r_search_mode": 1,
+  "save to disk dialog": "/Users/polan/Downloads",
+  "sort_history": [
+    [
+      "title",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "title",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "title",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "tablet",
+  "welcome_wizard_was_run": true
+}

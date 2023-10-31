@@ -1,0 +1,612 @@
+{
+  "Plugin Updater plugin:plugin updater dialog": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAADQAAAAnwAABL4AAAK7AAAA0AAAALsAAAS+AAACuwAAAAAAAAAABaAAAADQAAAAuwAABL4AAAK7"
+  },
+  "action-layout-context-menu": [
+    "Edit Metadata",
+    "Send To Device",
+    "Save To Disk",
+    "Connect Share",
+    "Copy To Library",
+    null,
+    "Convert Books",
+    "View",
+    "Open Folder",
+    "Show Book Details",
+    "Similar Books",
+    "Tweak ePub",
+    null,
+    "Remove Books",
+    "Ebook Translator"
+  ],
+  "action-layout-toolbar": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    null,
+    "Choose Library",
+    "Donate",
+    null,
+    "Fetch News",
+    "Store",
+    "Save To Disk",
+    "Connect Share",
+    null,
+    "Remove Books",
+    "Tweak ePub",
+    "Ebook Translator"
+  ],
+  "add from ISBN dup check": false,
+  "add from ISBN tags": [
+    "已购买"
+  ],
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA5gAAAaEAAAEKAf////8BAAAAAQA="
+  },
+  "book_details_splitter_horizontal_state": [
+    true,
+    404
+  ],
+  "book_info_dialog_layout": [
+    {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAF2AAAARgAABkMAAAWEAAABdgAAAGIAAAZDAAAFhAAAAAAAAAAACgAAAAF2AAAAYgAABkMAAAWE"
+    },
+    {
+      "__class__": "bytearray",
+      "__value__": "AAAA/wAAAAEAAAACAAABXgAAAV4B/////wEAAAABAA=="
+    }
+  ],
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEoA/////wEAAAABAA=="
+  },
+  "book_list_split": false,
+  "bulk-mde-casing-algorithm": "title_case",
+  "bulk_metadata_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAMQAAAB5wAABsoAAATmAAADEAAAAgMAAAbKAAAE5gAAAAAAAAAACgAAAAMQAAACAwAABsoAAATm"
+  },
+  "bulk_metadata_window_tab": 0,
+  "choose-icon-theme-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAGoAAAAPAAABSsAAAWTAAABqAAAAFgAAAUrAAAFkwAAAAAAAAAACgAAAAGoAAAAWAAABSsAAAWT"
+  },
+  "config_widget_dialog_geometry_Sharing_Metadata download": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAFGAAAAgAAABDMAAALBAAABRgAAAJwAAAQzAAACwQAAAAAAAAAABaAAAAFGAAAAnAAABDMAAALB"
+  },
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAGeAAABKwAABZ0AAAQCAAABngAAAUcAAAWdAAAEAgAAAAAAAAAAB4AAAAGeAAABRwAABZ0AAAQC"
+  },
+  "copy_to_choose_library_dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAImAAABKgAABUUAAANrAAACJgAAAUYAAAVFAAADawAAAAAAAAAAB4AAAAImAAABRgAABUUAAANr"
+  },
+  "cover_browser_splitter_vertical_state": [
+    false,
+    0
+  ],
+  "cover_grid_color": [
+    80,
+    80,
+    80
+  ],
+  "cover_grid_show_title": true,
+  "cover_grid_texture": null,
+  "default_author_link": null,
+  "filename_pattern_history": [
+    "(?P<author>[^_-]+) -?\\s*(?P<series>[^_0-9-]*)(?P<series_index>[0-9]*)\\s*-\\s*(?P<title>[^_].+) ?",
+    "(?P<title>.+) - (?P<author>[^_]+)",
+    "(?P<title>.+)"
+  ],
+  "fts_search_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAAC//////////8A/////wEAAAABAA=="
+  },
+  "geometry-of-Plugin Updater plugin:plugin updater dialog": {
+    "frame_geometry": {
+      "height": 558,
+      "width": 923,
+      "x": 1418,
+      "y": 25
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 530,
+      "width": 923,
+      "x": 1418,
+      "y": 53
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 530,
+      "width": 923,
+      "x": 1418,
+      "y": 53
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAWKAAAAGQAACSQAAAJGAAAFigAAADUAAAkkAAACRgAAAAAAAAAACgAAAAWKAAAANQAACSQAAAJG"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "PHL 328P6A",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 768,
+      "width": 1278,
+      "x": 659,
+      "y": 209
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 740,
+      "width": 1278,
+      "x": 659,
+      "y": 237
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 740,
+      "width": 1278,
+      "x": 659,
+      "y": 237
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAKTAAAA0QAAB5AAAAPQAAACkwAAAO0AAAeQAAAD0AAAAAAAAAAAB4AAAAKTAAAA7QAAB5AAAAPQ"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 2.0,
+      "geometry_in_logical_pixels": {
+        "height": 1200,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "Built-in Retina Display",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1200,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1200,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 1175,
+      "width": 1920,
+      "x": 0,
+      "y": 25
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1147,
+      "width": 1920,
+      "x": 0,
+      "y": 53
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 1147,
+      "width": 1920,
+      "x": 0,
+      "y": 53
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAGQAAB38AAASvAAAAAAAAADUAAAd/AAAErwAAAAACAAAAB4AAAAAAAAAANQAAB38AAASv"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 2.0,
+      "geometry_in_logical_pixels": {
+        "height": 1200,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "Built-in Retina Display",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1200,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1200,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-job-detail-view-dialog-geometry": {
+    "frame_geometry": {
+      "height": 528,
+      "width": 700,
+      "x": 930,
+      "y": 440
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 930,
+      "y": 468
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 930,
+      "y": 468
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAOiAAABuAAABl0AAAPHAAADogAAAdQAAAZdAAADxwAAAAAAAAAACgAAAAOiAAAB1AAABl0AAAPH"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "PHL 328P6A",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-jobs_dialog_geometry": {
+    "frame_geometry": {
+      "height": 507,
+      "width": 1000,
+      "x": 1495,
+      "y": 636
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 479,
+      "width": 1000,
+      "x": 1495,
+      "y": 664
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 479,
+      "width": 1000,
+      "x": 1495,
+      "y": 664
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAXXAAACfAAACb4AAAR2AAAF1wAAApgAAAm+AAAEdgAAAAAAAAAACgAAAAXXAAACmAAACb4AAAR2"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "PHL 328P6A",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-library-fts-dialog-geometry": {
+    "frame_geometry": {
+      "height": 708,
+      "width": 1000,
+      "x": 450,
+      "y": 232
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 680,
+      "width": 1000,
+      "x": 450,
+      "y": 260
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 680,
+      "width": 1000,
+      "x": 450,
+      "y": 260
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAHCAAAA6AAABakAAAOrAAABwgAAAQQAAAWpAAADqwAAAAAAAAAAB4AAAAHCAAABBAAABakAAAOr"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 2.0,
+      "geometry_in_logical_pixels": {
+        "height": 1200,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "Color LCD",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1200,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1200,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-metasingle_window_geometry3": {
+    "frame_geometry": {
+      "height": 1153,
+      "width": 1850,
+      "x": 473,
+      "y": 669
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1125,
+      "width": 1850,
+      "x": 473,
+      "y": 697
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1125,
+      "width": 1850,
+      "x": 473,
+      "y": 697
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAHZAAACnQAACRIAAAcdAAAB2QAAArkAAAkSAAAHHQAAAAAAAAAACgAAAAHZAAACuQAACRIAAAcd"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "PHL 328P6A",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 748,
+      "width": 930,
+      "x": 1376,
+      "y": 518
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 1376,
+      "y": 546
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 1376,
+      "y": 546
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAVgAAACBgAACQEAAATxAAAFYAAAAiIAAAkBAAAE8QAAAAAAAAAACgAAAAVgAAACIgAACQEAAATx"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "PHL 328P6A",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "gpm_template_editor_font": ".AppleSystemUIFont",
+  "gpm_template_editor_word_wrap_mode": true,
+  "grid view visible": false,
+  "job-detail-view-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAFfAAAAmQAABBoAAAKoAAABXwAAALUAAAQaAAACqAAAAAAAAAAABaAAAAFfAAAAtQAABBoAAAKo"
+  },
+  "jobs view column layout3": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA44AAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAABGAAAAAEAAAAAAAAAsgAAAAEAAAAAAAAAygAAAAEAAAAAAAAAkwAAAAEAAAAAAAAAZwAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
+  },
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAJiAAABegAABNoAAAOzAAACYgAAAZYAAATaAAADswAAAAAAAAAAB4AAAAJiAAABlgAABNoAAAOz"
+  },
+  "library_usage_stats": {
+    "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库": 76,
+    "/Users/polan/awyugan/D.MyLibrary/图书库/lifede": 34
+  },
+  "manage_authors_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAA////5AAAAv8AAAFVAAAAAAAAAAAAAAL/AAABVQAAAAAAAAAACgAAAAAAAAAAAAAAAv8AAAFV"
+  },
+  "manage_authors_table_widths": [
+    240,
+    240,
+    240
+  ],
+  "metadata_single_gui_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAJEAAABsgAABZUAAAQlAAACRAAAAc4AAAWVAAAEJQAAAAAAAAAACgAAAAJEAAABzgAABZUAAAQl"
+  },
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAACiAAABCgAAB0sAAATlAAAAogAAASYAAAdLAAAE5QAAAAAAAAAACgAAAACiAAABJgAAB0sAAATl"
+  },
+  "plugin config dialog:元数据来源:Douban Books": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAASmAAAC+gAABY8AAAPWAAAEpgAAAxYAAAWPAAAD1gAAAAAAAAAACgAAAASmAAADFgAABY8AAAPW"
+  },
+  "preferences dialog geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAfAAAAGQAAA8AAAAMEAAAAHwAAADUAAAPAAAADBAAAAAAAAAAAB4AAAAAfAAAANQAAA8AAAAME"
+  },
+  "previous_sort_order_BooksView": {
+    "authors": false,
+    "rating": false,
+    "tags": false,
+    "timestamp": false,
+    "title": false
+  },
+  "questions_to_auto_skip": [
+    "tag_item_delete"
+  ],
+  "quick_start_guide_added": true,
+  "quickview visible": false,
+  "recently_used_languages": [
+    "中文",
+    "英语"
+  ],
+  "replace_scene_breaks_history": [
+    "",
+    "<hr />",
+    "∗ ∗ ∗",
+    "• • •",
+    "♦ ♦ ♦",
+    "† †",
+    "‡ ‡ ‡",
+    "∞ ∞ ∞",
+    "¤ ¤ ¤"
+  ],
+  "scheduler_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAImAAABEAAABUUAAAODAAACJgAAASwAAAVFAAADgwAAAAAAAAAAB4AAAAImAAABLAAABUUAAAOD"
+  },
+  "search bar visible": true,
+  "show_emblems": true,
+  "tag browser search box visible": false,
+  "tag_browser_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "tb_search_order": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 0
+  },
+  "template_functions_prefs_st_show_help": true,
+  "template_functions_prefs_tf_show_help": true,
+  "ui_style": "system"
+}

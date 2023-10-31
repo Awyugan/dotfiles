@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>20G417</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Twitter Plugin</string>
+	<key>CFBundleExecutable</key>
+	<string>QSTwitter</string>
+	<key>CFBundleIconFile</key>
+	<string>QSTwit</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qsapp.QSTwit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Twitter Plugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>A7</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>13C100</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>12.1</string>
+	<key>DTSDKBuild</key>
+	<string>21C46</string>
+	<key>DTSDKName</key>
+	<string>macosx12.1</string>
+	<key>DTXcode</key>
+	<string>1321</string>
+	<key>DTXcodeBuild</key>
+	<string>13C100</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.14</string>
+	<key>NSPrincipalClass</key>
+	<string>QSTwitterUtil</string>
+	<key>QSActions</key>
+	<dict>
+		<key>sendDirectMessage</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSTwitterAction</string>
+			<key>actionSelector</key>
+			<string>sendDirectMessage:toContact:</string>
+			<key>directTypes</key>
+			<array>
+				<string>ABPeopleUIDsPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>QSTwit</string>
+			<key>indirectTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>name</key>
+			<string>Send Direct Message…</string>
+			<key>reverseArguments</key>
+			<true/>
+			<key>validatesObjects</key>
+			<true/>
+		</dict>
+		<key>sendDirectMessageTo</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSTwitterAction</string>
+			<key>actionSelector</key>
+			<string>sendDirectMessage:toContact:</string>
+			<key>directTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>QSTwit</string>
+			<key>indirectTypes</key>
+			<array>
+				<string>ABPeopleUIDsPboardType</string>
+			</array>
+			<key>name</key>
+			<string>Send Direct Message To…</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>sendMessage</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSTwitterAction</string>
+			<key>actionSelector</key>
+			<string>sendMessage:toContact:</string>
+			<key>directTypes</key>
+			<array>
+				<string>ABPeopleUIDsPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>QSTwit</string>
+			<key>indirectTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>name</key>
+			<string>Send Tweet…</string>
+			<key>reverseArguments</key>
+			<true/>
+			<key>validatesObjects</key>
+			<true/>
+		</dict>
+		<key>sendMessageTo</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSTwitterAction</string>
+			<key>actionSelector</key>
+			<string>sendMessage:toContact:</string>
+			<key>directTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>QSTwit</string>
+			<key>indirectTypes</key>
+			<array>
+				<string>ABPeopleUIDsPboardType</string>
+			</array>
+			<key>name</key>
+			<string>Send Tweet To…</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>sendTweet</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSTwitterAction</string>
+			<key>actionSelector</key>
+			<string>sendTweet:</string>
+			<key>directTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>QSTwit</string>
+			<key>name</key>
+			<string>Tweet</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Patrick Robertson</string>
+		<key>categories</key>
+		<array>
+			<string>Applications</string>
+			<string>Web</string>
+		</array>
+		<key>description</key>
+		<string>Allows posting of tweets and messages to Twitter from Quicksilver</string>
+		<key>extendedDescription</key>
+		<string>&lt;h3&gt;Twitter Plugin&lt;/h3&gt;
+&lt;p&gt;Enables posting of tweets, messages and direct messages to Twitter from within Quicksilver&lt;/p&gt;
+&lt;h4&gt;Setup&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Twitter Login&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In order to post tweets from Quicksilver, you must authenticate Quicksilver with your Twitter account. Do this by going to the &lt;a href="qs://preferences#QSTwitterPrefPane"&gt;Twitter plugin preferences&lt;/a&gt; and clicking the 'Sign In' button.
+Your Twitter login details are stored securely in OS X's Keychain.app for access across computer and app relaunches. You can remove the login details at any time by clicking the 'Sign Out' button in the Twitter preference pane.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Twitter Contacts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some actions require a contact to send a direct message/message to. These actions accept both text (e.g. in the form '@Twitter') or a contact from your Address Book (requires the Contacts plugin). In order to use contacts directly, you must ensure that your contacts have their Twitter username field set in Address Book.app / Contacts.app&lt;/p&gt;
+&lt;h4&gt;Actions&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Send Tweet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The 'Tweet' action takes text in Quicksilver's 1st pane and posts a tweet directly to Twitter&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Send Tweet… / Send Tweet To…&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Use the 'Tweet…' action to send a contact selected in Quicksilver's 1st pane (either a contact from your Contacts list or a username entered as text) the text entered in Quicksilver's 3rd pane. The 'Send Tweet To…' action works in reverse, taking text in Quicksilver's 1st pane and a contact in Quicksilver's 3rd pane.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Send Direct Message… / Send Direct Message To…&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;'Send Direct Message…' can be used to send a contact (selected in Quicksilver's 1st pane) a direct message entered as text in Quicksilver's 3rd pane. The 'Send Direct Message To…' action works in reverse.&lt;/p&gt;</string>
+		<key>icon</key>
+		<string>QSTwit</string>
+		<key>relatedBundles</key>
+		<array>
+			<string>com.twitter.twitter-mac</string>
+			<string>com.iconfactory.Twitterrific</string>
+		</array>
+	</dict>
+	<key>QSPresetAdditionsTemplate</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>QSPresetTwitter</string>
+			<key>name</key>
+			<string>Twitter</string>
+			<key>source</key>
+			<string>TwitterSource</string>
+		</dict>
+	</array>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSActionProviders</key>
+		<dict>
+			<key>QSTwitterAction</key>
+			<string>QSTwitterAction</string>
+		</dict>
+		<key>QSBundleChildHandlers</key>
+		<dict>
+			<key>com.apple.whatever</key>
+			<string>TwitterSource</string>
+		</dict>
+		<key>QSObjectHandlers</key>
+		<dict>
+			<key>TwitterType</key>
+			<string>TwitterSource</string>
+		</dict>
+		<key>QSObjectSources</key>
+		<dict>
+			<key>TwitterSource</key>
+			<string>TwitterSource</string>
+		</dict>
+		<key>QSPreferencePanes</key>
+		<dict>
+			<key>QSTwitterPrefPane</key>
+			<dict>
+				<key>class</key>
+				<string>QSTwitterPrefPane</string>
+				<key>description</key>
+				<string>Twitter Preferences</string>
+				<key>icon</key>
+				<string>QSTwit</string>
+				<key>name</key>
+				<string>Twitter</string>
+				<key>nibBundle</key>
+				<string>com.qsapp.QSTwit</string>
+				<key>nibName</key>
+				<string>QSTwitterPrefPane</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>4000</string>
+	</dict>
+	<key>QSResourceAdditions</key>
+	<dict>
+		<key>QSTwit</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.qsapp.QSTwit</string>
+			<key>resource</key>
+			<string>QSTwit.icns</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

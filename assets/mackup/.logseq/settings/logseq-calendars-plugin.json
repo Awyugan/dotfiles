@@ -1,0 +1,23 @@
+{
+  "template": "{Start} - {End}: {Title}",
+  "useJSON": false,
+  "IndentCommonBlock": false,
+  "templateLine2": "{Description}",
+  "timeFormat": [
+    "24 hour time"
+  ],
+  "calendar1Name": "Calendar 1",
+  "calendar1URL": "https://calendar.google.com/calendar/ical/...",
+  "calendar2Name": "",
+  "calendar2URL": "",
+  "calendar3Name": "",
+  "calendar3URL": "",
+  "calendar4Name": "",
+  "calendar4URL": "",
+  "calendar5Name": "",
+  "calendar5URL": "",
+  "disabled": true,
+  "accountsDetails": {
+    "Calendar 1": "https://calendar.google.com/calendar/ical/..."
+  }
+}

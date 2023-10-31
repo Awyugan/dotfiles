@@ -1,0 +1,8 @@
+{
+  "keyboard": "f f",
+  "disabled": true,
+  "fullscreen": true,
+  "init": true,
+  "focus_on_startup": false,
+  "hide_sidebar": true
+}

@@ -1,0 +1,76 @@
+{
+  "picBed": {
+    "current": "smms",
+    "uploader": "smms",
+    "smms": {
+      "token": ""
+    },
+    "list": [
+      {
+        "name": "SM.MS图床",
+        "type": "smms",
+        "visible": true
+      },
+      {
+        "name": "腾讯云COS",
+        "type": "tcyun",
+        "visible": false
+      },
+      {
+        "name": "GitHub图床",
+        "type": "github",
+        "visible": false
+      },
+      {
+        "name": "七牛图床",
+        "type": "qiniu",
+        "visible": false
+      },
+      {
+        "name": "Imgur图床",
+        "type": "imgur",
+        "visible": false
+      },
+      {
+        "name": "阿里云OSS",
+        "type": "aliyun",
+        "visible": true
+      },
+      {
+        "name": "又拍云图床",
+        "type": "upyun",
+        "visible": false
+      }
+    ]
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "快捷上传"
+      }
+    },
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "privacyEnsure": true,
+    "showUpdateTip": true,
+    "checkBetaUpdate": true,
+    "autoStart": false,
+    "autoRename": false,
+    "logLevel": [
+      "error"
+    ]
+  },
+  "picgoPlugins": {
+    "picgo-plugin-vscode-migrator": true,
+    "picgo-plugin-rename": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "needReload": false
+}

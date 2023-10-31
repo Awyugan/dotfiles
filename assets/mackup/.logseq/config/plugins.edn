@@ -1,0 +1,190 @@
+{:logseq-split-block
+ {:version "v1.2.0",
+  :repo "hyrijk/logseq-plugin-split-block",
+  :effect false,
+  :theme false},
+ :logseq-chartrender-plugin
+ {:version "v1.10.0",
+  :repo "hkgnp/logseq-chartrender-plugin",
+  :effect false,
+  :theme false},
+ :logseq-block-calendar
+ {:version "v0.1.5",
+  :repo "vipzhicheng/logseq-plugin-block-calendar",
+  :effect true,
+  :theme false},
+ :logseq-calendars-plugin
+ {:version "2.2.2",
+  :repo "sawhney17/logseq-calendars-plugin",
+  :effect true,
+  :theme false},
+ :logseq-find-and-replace
+ {:version "v1.1.1",
+  :repo "sawhney17/logseq-find-replace",
+  :effect false,
+  :theme false},
+ :logseq-swapblocks-plugin
+ {:version "v1.3.0",
+  :repo "hkgnp/logseq-swapblocks-plugin",
+  :effect false,
+  :theme false},
+ :logseq-plugin-heading-level-shortcuts
+ {:version "v0.0.2",
+  :repo "vipzhicheng/logseq-plugin-heading-level-shortcuts",
+  :effect false,
+  :theme false},
+ :logseq-doc
+ {:version "v1.10.0",
+  :repo "sethyuan/logseq-plugin-doc",
+  :effect true,
+  :theme false},
+ :logseq-comment-block
+ {:version "v0.0.7",
+  :repo "vipzhicheng/logseq-plugin-comment-block",
+  :effect false,
+  :theme false},
+ :logseq-journals-calendar
+ {:version "0.10.5",
+  :repo "xyhp915/logseq-journals-calendar",
+  :effect false,
+  :theme false},
+ :logseq-localassets-plugin {:version "1.22", :theme false},
+ :logseq-markdown-table
+ {:version "v1.7.0",
+  :repo "haydenull/logseq-plugin-markdown-table",
+  :effect false,
+  :theme false},
+ :logseq-property-visualizer
+ {:version "1.0.4",
+  :repo "sawhney17/logseq-property-visualizer",
+  :effect false,
+  :theme false},
+ :logseq-keywordfrequency-plugin {:version "1.2", :theme false},
+ :logseq-mergepages-plugin
+ {:version "v1.6.2",
+  :repo "hkgnp/logseq-mergepages-plugin",
+  :effect false,
+  :theme false},
+ :flomo_memos_sync
+ {:version "0.0.9",
+  :repo "duiliuliu/logseq-flomo-plugin",
+  :effect false,
+  :theme false},
+ :logseq-tablerender-plugin
+ {:version "v1.9.0",
+  :repo "hkgnp/logseq-tablerender-plugin",
+  :effect false,
+  :theme false},
+ :logseq-heatmap
+ {:version "v2.4.2",
+  :repo "pengx17/logseq-plugin-heatmap",
+  :effect true,
+  :theme false},
+ :logseq-bullet-threading
+ {:version "v1.1.0",
+  :repo "pengx17/logseq-plugin-bullet-threading",
+  :effect false,
+  :theme false},
+ :logseq-random-note
+ {:version "1.0.7",
+  :repo "tankcool/logseq-random-note",
+  :effect false,
+  :theme false},
+ :logseq-banners-plugin
+ {:version "v3.4.2",
+  :repo "yoyurec/logseq-banners-plugin",
+  :effect true,
+  :theme false},
+ :logseq-dracula-theme
+ {:repo "dracula/logseq", :effect false, :theme true},
+ :logseq-datenlp-plugin
+ {:version "v3.11.2",
+  :repo "hkgnp/logseq-datenlp-plugin",
+  :effect true,
+  :theme false},
+ :logseq-todoist-plugin
+ {:version "v3.1",
+  :repo "hkgnp/logseq-todoist-plugin",
+  :effect false,
+  :theme false},
+ :logseq-anki-sync
+ {:version "v3.2.3",
+  :repo "debanjandhar12/logseq-anki-sync",
+  :effect true,
+  :theme false},
+ :logseq-todo-master
+ {:version "v1.4.6",
+  :repo "pengx17/logseq-plugin-todo-master",
+  :effect false,
+  :theme false},
+ :logseq-tabs
+ {:version "v1.17.1",
+  :repo "pengx17/logseq-plugin-tabs",
+  :effect true,
+  :theme false},
+ :logseq-block-to-page
+ {:version "v1.3.0",
+  :repo "hyrijk/logseq-plugin-block-to-page",
+  :effect false,
+  :theme false},
+ :logseq-link-preview
+ {:version "v2.2.9",
+  :repo "pengx17/logseq-plugin-link-preview",
+  :effect true,
+  :theme false},
+ :logseq-toolbox
+ {:version "0.0.2",
+  :repo "tankcool/logseq-toolbox",
+  :effect false,
+  :theme false},
+ :logseq-focus-mode
+ {:version "v1.0.3",
+  :repo "sethfair/logseq-focus-mode",
+  :effect false,
+  :theme false},
+ :logseq-kanban-plugin
+ {:version "v2.7.3",
+  :repo "hkgnp/logseq-kanban-plugin",
+  :effect false,
+  :theme false},
+ :logseq-tags
+ {:version "v0.1.2",
+  :repo "gidongkwon/logseq-plugin-tags",
+  :effect false,
+  :theme false},
+ :logseq-tocgen
+ {:version "v1.18.1",
+  :repo "sethyuan/logseq-plugin-tocgen",
+  :effect true,
+  :theme false},
+ :logseq-wordcount-plugin
+ {:version "v2.1.2",
+  :repo "hkgnp/logseq-wordcount-plugin",
+  :effect false,
+  :theme false},
+ :logseq-browser
+ {:version "v1.1.2",
+  :repo "haydenull/logseq-plugin-browser",
+  :effect false,
+  :theme false},
+ :logseq-charspacing
+ {:version "v1.2.0",
+  :repo "sethyuan/logseq-plugin-charspacing",
+  :effect true,
+  :theme false},
+ :logseq-smartblocks
+ {:version "3.4.5",
+  :repo "sawhney17/logseq-smartblocks",
+  :effect false,
+  :theme false},
+ :logseq-media-ts
+ {:version "v0.9.4",
+  :repo "sethyuan/logseq-plugin-media-ts",
+  :effect true,
+  :theme false},
+ :logseq-mark-map
+ {:version "v0.1.4",
+  :repo "vipzhicheng/logseq-plugin-mark-map",
+  :effect false, 
+  :theme false}
+ :template-gallery {:version "0.12", :repo "dangermccann/logseq-template-gallery", :effect true, :theme false}}

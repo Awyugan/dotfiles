@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF8"?>
+<FEXLicense xmlns="http://fontexplorerx.com/License">
+  <Data>
+    <Key>Type</Key>
+    <Value>client</Value>
+    <Key>Product</Key>
+    <Value>FontExplorer X Pro 4.x (Mac)</Value>
+    <Key>Version</Key>
+    <Value>4</Value>
+    <Key>Serial</Key>
+    <Value>-</Value>
+    <Key>Licenses</Key>
+    <Value>1</Value>
+    <Key>DeliveryDate</Key>
+    <Value>2018-12-06</Value>
+  </Data>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference>
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>gLqG4cmavctb69Zyxxpwvd3acd8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>VNhAKv3mKa7BtIYaDeCwHaA3a0LpyHJpS5f8xKOv0HugcLr0yWIWAONDialBMPI5
+OS4RdUTiW0aNAFUu7Nw+vujE96ogAIvXkOAYqW5IqJlG5iIk/SBu0ovtEtaIapiT
+BmONhr+7VxzTiCrfNNRpqMeKUoZQhM3gL4w2AWQZQKgqs35ZT7ezZsJCRi+CVtBY
+JCcWuy1bq9Gtog7JNYn94aFTjByVT0KRXzgXG3DiOC4boLKKpLv5LoeFRt0STxcj
+TLquwsIBlOGPf59pqRFKfrpnB05TLdBUu8HRVCAbXBVwFzTOjU9RIf/CqckqXxhS
+LwW5hVX0drGQaP2oxOF/zozGYAzjGKt66VMPUXJPHnm9rTkWmYGvFz24FBraKrVh
+nvg56o7GlDpHKAykleKj0FF9O1TY6d7yZ5EOQMm1R4eQhtn6XJj6KxF5bmro/g2i
+9mjht8n3MzEIADdoE65djcz263E1GtvOd1xiUMtR+MsL9D9optV/mFMOS3Ao5Gwm
+DXh4wfHoNsGyMW4CoyNlTIfkHcH1/PVXArIt2nqh7SGPUaPJ5K3I0Cd/q1JgsL5K
+VWi07x5Vb7uTnUgfcHqsHY45PZztVNyNBv4MIneFyTbAczrY4eTXyeWG7bt9FzdX
+MAhArIfT0AdBfkaV5TLZTGOMsZR2Lj3zMjlicLYZRJs=</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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
+Qvuto29V172NNHB5C/rsjN7OlB+Su/pW</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></FEXLicense>

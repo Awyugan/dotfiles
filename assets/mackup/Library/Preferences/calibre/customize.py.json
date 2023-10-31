@@ -1,0 +1,22 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": [
+      "Google",
+      "Open Library"
+    ]
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": [
+      "Amazon.com",
+      "Douban Books"
+    ]
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "Douban Books": "/Users/polan/Library/Preferences/calibre/plugins/Douban Books.zip",
+    "Ebook Translator": "/Users/polan/Library/Preferences/calibre/plugins/Ebook Translator.zip"
+  }
+}

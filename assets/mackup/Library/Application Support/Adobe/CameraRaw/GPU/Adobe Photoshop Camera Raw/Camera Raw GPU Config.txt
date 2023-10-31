@@ -1,0 +1,9 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:gpu_preferred_system=""
+   crs:gpu_compute_digest="C41B8880A9809406662D6960E839CCC9"
+   crs:gpu_compute_quick_self_test_passed="True"/>
+ </rdf:RDF>
+</x:xmpmeta>

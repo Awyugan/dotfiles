@@ -1,0 +1,32 @@
+{
+  "api_key": {
+    "ChatGPT": "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"
+  },
+  "cache_enabled": true,
+  "chatgpt_prompt": {},
+  "custom_engines": {},
+  "filter_rules": [],
+  "glossary_enabled": false,
+  "glossary_path": null,
+  "log_translation": true,
+  "merge_enabled": true,
+  "merge_length": 2000,
+  "output_path": "",
+  "preferred_language": {
+    "ChatGPT": "Chinese (Simplified)",
+    "DeepL(Free)": "Chinese (simplified)",
+    "Google(Free)": "Chinese (Simplified)"
+  },
+  "proxy_enabled": false,
+  "proxy_setting": [
+    "127.0.0.1",
+    1080
+  ],
+  "request_attempt": 3,
+  "request_interval": 5,
+  "rule_mode": "normal",
+  "to_library": true,
+  "translate_engine": "DeepL(Free)",
+  "translation_color": null,
+  "translation_position": "only"
+}

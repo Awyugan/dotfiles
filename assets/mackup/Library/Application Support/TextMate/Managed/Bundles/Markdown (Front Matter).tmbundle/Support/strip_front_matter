@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby18 -wKU
+
+DELIMITER = /^---\s*$/
+
+lines = $stdin.read.split("\n")
+if lines[0] =~ DELIMITER && (end_of_frontmatter = lines[1..-1].find_index{ |l| l =~ DELIMITER }) != nil
+  lines.slice!(0, end_of_frontmatter + 2)
+end
+puts lines.join("\n")

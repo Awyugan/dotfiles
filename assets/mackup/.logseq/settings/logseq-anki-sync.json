@@ -1,0 +1,18 @@
+{
+  "generalSettingsHeading": null,
+  "breadcrumbDisplay": "Show Page name and parent blocks context",
+  "includeParentContent": false,
+  "defaultDeck": "Default",
+  "addons": [
+    "Anki Cloze Macro Display"
+  ],
+  "advancedSettingsHeading": null,
+  "skipOnDependencyHashMatch": true,
+  "activeCacheForLogseqAPIv0": false,
+  "debug": [],
+  "disabled": true,
+  "hideNativeFlashcard": false,
+  "previewNotesInAnki": false,
+  "syncDebug": false,
+  "converterDebug": false
+}

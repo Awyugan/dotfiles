@@ -1,0 +1,29 @@
+# Installation
+
+You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
+
+# Settings
+
+If you have Java installed and TextMate does not find your JDK and shows the error message `No Java runtime present, requesting install`, you have to tell TextMate where to find the `java` and `javac` executables. Go to the *Preferences*, open the *Variables* section and add two entries using the `+` button: `TM_JAVA`, which points to your `java` executable and `TM_JAVAC`, which points to your `javac` executable. Example:
+
+|   | Variable Name  | Value |
+| - | -------------- | ----- |
+|  :white_check_mark: | TM_JAVA  | /Users/*«yourname»*/jdk1.8.0/bin/java |
+|  :white_check_mark: | TM_JAVAC | /Users/*«yourname»*/jdk1.8.0/bin/javac |
+
+# General
+
+* [Bundle Styleguide](http://kb.textmate.org/bundle_styleguide) — _before you make changes_
+* [Commit Styleguide](http://kb.textmate.org/commit_styleguide) — _before you send a pull request_
+* [Writing Bug Reports](http://kb.textmate.org/writing_bug_reports) — _before you report an issue_
+
+# License
+
+If not otherwise specified (see below), files in this repository fall under the following license:
+
+	Permission to copy, use, modify, sell and distribute this
+	software is granted. This software is provided "as is" without
+	express or implied warranty, and with no claim as to its
+	suitability for any purpose.
+
+An exception is made for files in readable text which contain their own license information, or files where an accompanying file exists (in the same directory) with a “-license” suffix added to the base-name name of the original file, and an extension of txt, html, or similar. For example “tidy” is accompanied by “tidy-license.txt”.

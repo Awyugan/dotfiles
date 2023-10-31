@@ -1,0 +1,7 @@
+{
+  "showTodayBtn": true,
+  "firstDayOfWeek": 1,
+  "backgroundColorOfContainerLight": "#ffffff",
+  "backgroundColorOfContainerDark": "#b8288b",
+  "disabled": true
+}

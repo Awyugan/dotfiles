@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>系统偏好设置</string>
+		<key>NewFile</key>
+		<string>/System/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.nuebling.mac-mouse-fix</string>
+		<key>Name</key>
+		<string>Mac Mouse Fix</string>
+		<key>NewFile</key>
+		<string>/Applications/Mac Mouse Fix.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.logi.bolt.app</string>
+		<key>Name</key>
+		<string>Logi Bolt</string>
+		<key>NewFile</key>
+		<string>/Applications/Logi Bolt.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>预览</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.zotero.zotero</string>
+		<key>Name</key>
+		<string>Zotero</string>
+		<key>NewFile</key>
+		<string>/Applications/Zotero.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.mac.utility.video.player.PotPlayerX</string>
+		<key>Name</key>
+		<string>Fig Player</string>
+		<key>NewFile</key>
+		<string>/Applications/PotPlayerX.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.macromates.TextMate</string>
+		<key>Name</key>
+		<string>TextMate</string>
+		<key>NewFile</key>
+		<string>/Applications/TextMate.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>tech.xinxiao.tuya</string>
+		<key>Name</key>
+		<string>图压</string>
+		<key>NewFile</key>
+		<string>/Applications/图压.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>Tommi-Urtti.OwlOCR</string>
+		<key>Name</key>
+		<string>OwlOCR</string>
+		<key>NewFile</key>
+		<string>/Applications/OwlOCR.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.charliemonroe.Downie-4</string>
+		<key>Name</key>
+		<string>Downie 4</string>
+		<key>NewFile</key>
+		<string>/Applications/Downie 4.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.tencent.xinWeChat</string>
+		<key>Name</key>
+		<string>微信</string>
+		<key>NewFile</key>
+		<string>/Applications/WeChat.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.runningwithcrayons.Alfred-Preferences</string>
+		<key>Name</key>
+		<string>Alfred Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/Alfred 5.app/Contents/Preferences/Alfred Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.mail</string>
+		<key>Name</key>
+		<string>邮件</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Mail.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ActivityMonitor</string>
+		<key>Name</key>
+		<string>活动监视器</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Utilities/Activity Monitor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Terminal</string>
+		<key>Name</key>
+		<string>终端</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Utilities/Terminal.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.electron.logseq</string>
+		<key>Name</key>
+		<string>Logseq</string>
+		<key>NewFile</key>
+		<string>/Applications/Logseq.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AppStore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/System/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Safari</string>
+		<key>Name</key>
+		<string>Safari浏览器</string>
+		<key>NewFile</key>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iBooksX</string>
+		<key>Name</key>
+		<string>图书</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Books.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.cisdem.pdfmaster</string>
+		<key>Name</key>
+		<string>Cisdem PDFMaster</string>
+		<key>NewFile</key>
+		<string>/Applications/Cisdem PDFMaster.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.archiveutility</string>
+		<key>Name</key>
+		<string>归档实用工具</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.brother.pdfreaderprofree.mac</string>
+		<key>Name</key>
+		<string>PDF Reader Pro</string>
+		<key>NewFile</key>
+		<string>/Applications/PDF Reader Pro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.omi.utility.video.converter</string>
+		<key>Name</key>
+		<string>即刻转换</string>
+		<key>NewFile</key>
+		<string>/Applications/VideoConverterX.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.mac.utility.media.converter</string>
+		<key>Name</key>
+		<string>OmniConverter全能转换器</string>
+		<key>NewFile</key>
+		<string>/Applications/OmniConverter.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
+	</dict>
+</array>
+</plist>

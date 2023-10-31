@@ -1,0 +1,11 @@
+{
+  "enableDot": true,
+  "journalDotColor": "#c800ff",
+  "taskUndoneDotColor": "#8e258e",
+  "taskDoneDotColor": "#009900",
+  "firstDayOfWeek": "monday",
+  "defaultLanguage": "简体中文",
+  "tableWidth": "100%",
+  "alwaysRenderIn": "#banner-widgets-calendar",
+  "disabled": true
+}

@@ -1,0 +1,579 @@
+cr_sdk_initialize: Adobe Photoshop Camera Raw 13.2 (Macintosh), version 13.2x738, 64-bit, Release
+gDNGMaxSIMD: 3
+Memory allocator: baseline (cr_memory_allocator)
+TBB threading: no
+libdispatch threading: no
+thread type: direct/native
+ACE thread type: direct/native
+PatchMatch initialized (version 5.0.0.0). Using 8 threads.
+OS: 12.6.1
+CPU: Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz
+MPProcessorCount (hyperthreading = false): 4
+MPProcessorCount (hyperthreading = true): 8
+MPThreadCount: 8
+std::thread::hardware_concurrency: 8
+AVX support: yes
+AVX2 support: yes
+AVX512 support: no
+System physical RAM: 16 GB
+Initialize GPU system
+Read GPU config
+Safe load GPU
+Building pipeline states for Intel Iris Pro Graphics
+Building pipeline states for AMD Radeon R9 M370X
+Loaded GPU system: Metal
+GPU primary driver version: 12.6.1
+GPU device count: 1
+GPU device names: AMD Radeon R9 M370X
+GPU3 allow list: no
+GPU3 deny list: no
+GPU3 prev digest: 678520D43FC7ABA2A0054F1BC160069B
+GPU3 new digest: C41B8880A9809406662D6960E839CCC9
+Need to run gpu self tests : True.
+New/changed sanity digest, so zapping any TempDisableGPU3 files
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): unknown
+GPU3 Soft Status Result (part 1): success
+AMD Radeon R9 M370X: Building compute pipeline state (1/266)
+MaxTotalThreadsPerThreadGroup: TestNOPCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (2/266)
+MaxTotalThreadsPerThreadGroup: TestDoRenderCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (3/266)
+MaxTotalThreadsPerThreadGroup: TestComputeCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (4/266)
+MaxTotalThreadsPerThreadGroup: TestComputeSpeedCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (5/266)
+MaxTotalThreadsPerThreadGroup: TestMarkTip32Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (6/266)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufInPlace_2D_R32FloatCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (7/266)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufPingPong_2D_R32FloatCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (8/266)
+MaxTotalThreadsPerThreadGroup: TestShader1_TexPingPong_2DCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (9/266)
+MaxTotalThreadsPerThreadGroup: Test1dFunctionsCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (10/266)
+MaxTotalThreadsPerThreadGroup: TextureUnitInfoCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (11/266)
+MaxTotalThreadsPerThreadGroup: MaskRenderComboCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (12/266)
+MaxTotalThreadsPerThreadGroup: LocalCorrectionCompositeCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (13/266)
+MaxTotalThreadsPerThreadGroup: AutoLateralCAWarpTransformCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (14/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (15/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (16/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (17/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (18/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (19/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius6Compute,768,512
+AMD Radeon R9 M370X: Building compute pipeline state (20/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (21/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (22/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius3Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (23/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius4Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (24/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneIn4Radius5Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (25/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (26/266)
+Intel Compiler: no
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (27/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius3Compute,768,512
+AMD Radeon R9 M370X: Building compute pipeline state (28/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (29/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius5Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (30/266)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius6Compute,768,512
+AMD Radeon R9 M370X: Building compute pipeline state (31/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (32/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (33/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (34/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (35/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (36/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (37/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (38/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (39/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (40/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (41/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (42/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (43/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4Radius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (44/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneIn4RadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (45/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (46/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (47/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (48/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (49/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (50/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (51/266)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (52/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (53/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (54/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (55/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (56/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (57/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (58/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (59/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (60/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (61/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (62/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (63/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (64/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (65/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (66/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (67/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (68/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (69/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (70/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (71/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (72/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (73/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (74/266)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (75/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (76/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (77/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (78/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (79/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (80/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (81/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (82/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (83/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (84/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (85/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (86/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (87/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (88/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (89/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (90/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (91/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (92/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (93/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (94/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (95/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (96/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (97/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (98/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (99/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (100/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (101/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (102/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (103/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (104/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (105/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (106/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (107/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (108/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (109/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (110/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (111/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (112/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (113/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (114/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (115/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (116/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (117/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (118/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (119/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (120/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (121/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (122/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (123/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (124/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (125/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (126/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (127/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (128/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (129/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (130/266)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (131/266)
+MaxTotalThreadsPerThreadGroup: Copy1PlaneIn4DoublePlaneTextureToTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (132/266)
+MaxTotalThreadsPerThreadGroup: Copy1PlaneIn4TextureToTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (133/266)
+MaxTotalThreadsPerThreadGroup: Copy2PlaneTextureTo4PlaneTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (134/266)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16sToTexture32Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (135/266)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16uToTexture32Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (136/266)
+MaxTotalThreadsPerThreadGroup: CopyBuffer32ToTexture32Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (137/266)
+MaxTotalThreadsPerThreadGroup: CopyBufferToBufferCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (138/266)
+MaxTotalThreadsPerThreadGroup: CopyBufferToTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (139/266)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (140/266)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithDitherCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (141/266)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithEdgeOptionCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (142/266)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithPaddingCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (143/266)
+MaxTotalThreadsPerThreadGroup: DefringeCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (144/266)
+MaxTotalThreadsPerThreadGroup: DefringeBlendBlurNonBlurredCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (145/266)
+MaxTotalThreadsPerThreadGroup: DefringeCompositeMaskCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (146/266)
+MaxTotalThreadsPerThreadGroup: DefringeMaskCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (147/266)
+MaxTotalThreadsPerThreadGroup: DefringeMaxMaskCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (148/266)
+MaxTotalThreadsPerThreadGroup: DefringeMaxAcrossRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (149/266)
+MaxTotalThreadsPerThreadGroup: DefringeMaxDownRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (150/266)
+MaxTotalThreadsPerThreadGroup: DefringeMinMaskCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (151/266)
+MaxTotalThreadsPerThreadGroup: DefringeMultiplyMaskCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (152/266)
+MaxTotalThreadsPerThreadGroup: DehazeDarkChannelCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (153/266)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (154/266)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (155/266)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (156/266)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (157/266)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (158/266)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (159/266)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (160/266)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (161/266)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (162/266)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendLocalCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (163/266)
+MaxTotalThreadsPerThreadGroup: DenoiseBlendEdgesCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (164/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCopyLumAndColorCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (165/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (166/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (167/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (168/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (169/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (170/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (171/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (172/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (173/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (174/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (175/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (176/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (177/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (178/266)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (179/266)
+MaxTotalThreadsPerThreadGroup: DenoiseDeltaFindFeatureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (180/266)
+MaxTotalThreadsPerThreadGroup: DenoiseDiffuseEdgeMarkersCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (181/266)
+MaxTotalThreadsPerThreadGroup: DenoiseFindAndRemoveNoiseBlockCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (182/266)
+MaxTotalThreadsPerThreadGroup: DenoiseMakeDeltaCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (183/266)
+MaxTotalThreadsPerThreadGroup: DenoiseOptionKeyFeedbackCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (184/266)
+MaxTotalThreadsPerThreadGroup: DenoisePrelimEdgeDirectionCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (185/266)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildHpCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (186/266)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (187/266)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (188/266)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (189/266)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithHpCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (190/266)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithoutHpCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (191/266)
+MaxTotalThreadsPerThreadGroup: DenoiseRank3x3PlusHpThresholdCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (192/266)
+MaxTotalThreadsPerThreadGroup: DenoiseRecordMaxBorderCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (193/266)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineDeltasCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (194/266)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineRefEdgeDirectionsCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (195/266)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothEdgesCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (196/266)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothNonEdgeCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (197/266)
+MaxTotalThreadsPerThreadGroup: DrawLineOnTexCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (198/266)
+MaxTotalThreadsPerThreadGroup: FillBufferCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (199/266)
+MaxTotalThreadsPerThreadGroup: FillBuffer1PlaneCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (200/266)
+MaxTotalThreadsPerThreadGroup: FillTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (201/266)
+MaxTotalThreadsPerThreadGroup: OverlayGrainCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (202/266)
+MaxTotalThreadsPerThreadGroup: Histogram1PlaneCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (203/266)
+MaxTotalThreadsPerThreadGroup: Histogram4PlaneCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (204/266)
+MaxTotalThreadsPerThreadGroup: LocalContrastYCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (205/266)
+MaxTotalThreadsPerThreadGroup: ManualDistortionTransformCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (206/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (207/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (208/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (209/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (210/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (211/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (212/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurAcrossRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (213/266)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurDownAndBlendRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (214/266)
+MaxTotalThreadsPerThreadGroup: MoireCombine3Plane1PlaneCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (215/266)
+MaxTotalThreadsPerThreadGroup: PerspectiveTransformCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (216/266)
+MaxTotalThreadsPerThreadGroup: RadialTableWarpTransformCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (217/266)
+MaxTotalThreadsPerThreadGroup: ReorientTextureCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (218/266)
+MaxTotalThreadsPerThreadGroup: Sample1PlaneCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (219/266)
+MaxTotalThreadsPerThreadGroup: Sample4PlaneCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (220/266)
+MaxTotalThreadsPerThreadGroup: Sequence1TexCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (221/266)
+MaxTotalThreadsPerThreadGroup: Sequence2TexCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (222/266)
+MaxTotalThreadsPerThreadGroup: Sequence3TexCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (223/266)
+MaxTotalThreadsPerThreadGroup: Sequence4TexCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (224/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (225/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (226/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (227/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (228/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (229/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4Radius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (230/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpen1PlaneIn4RadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (231/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (232/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (233/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (234/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (235/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (236/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius6Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (237/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadiusNCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (238/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (239/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (240/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius3Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (241/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius4Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (242/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1Pass1PlaneIn4Radius5Compute,512,512
+AMD Radeon R9 M370X: Building compute pipeline state (243/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (244/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius2Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (245/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius3Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (246/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (247/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius5Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (248/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius6Compute,768,512
+AMD Radeon R9 M370X: Building compute pipeline state (249/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlus1PlaneIn4Compute,768,512
+AMD Radeon R9 M370X: Building compute pipeline state (250/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlusCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (251/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1Pass1PlaneIn4Radius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (252/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1PassRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (253/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3LensBlurCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (254/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1Pass1PlaneIn4Radius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (255/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1PassRadius1Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (256/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYGamma181PlaneIn4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (257/266)
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYGamma18Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (258/266)
+MaxTotalThreadsPerThreadGroup: SkewHCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (259/266)
+MaxTotalThreadsPerThreadGroup: SkewVCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (260/266)
+MaxTotalThreadsPerThreadGroup: SolidFrameTexCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (261/266)
+MaxTotalThreadsPerThreadGroup: TextureAffinePlusCompositeCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (262/266)
+MaxTotalThreadsPerThreadGroup: TextureEncodeLogYCCCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (263/266)
+MaxTotalThreadsPerThreadGroup: WarpCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (264/266)
+MaxTotalThreadsPerThreadGroup: Warp4X4Compute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (265/266)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferentCompute,1024,512
+AMD Radeon R9 M370X: Building compute pipeline state (266/266)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferent4X4Compute,1024,512
+AMD Radeon R9 M370X: Finished building compute pipeline states.
+Begin cr_gpu_test::RunSanity (quick = False, doing init = True).
+Bounds of image A are: 1000 and 1000
+Bounds of image B are: 1000 and 1000
+Completed cr_gpu_test::RunSanity successfully.
+GPU Init Status (part 2): I3_GPU3
+GPU3 Hard Status Result (part 2): success
+GPU3 Soft Status Result (part 2): success
+Terminate GPU system
+cr_sdk_terminate

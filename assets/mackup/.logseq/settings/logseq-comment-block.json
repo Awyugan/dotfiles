@@ -1,0 +1,9 @@
+{
+  "disabled": true,
+  "showToolbarIcon": true,
+  "keyBindings": {
+    "commentBlock": "mod+shift+i"
+  },
+  "listStyle": "day-first",
+  "settingsVersion": "v2"
+}

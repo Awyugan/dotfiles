@@ -1,0 +1,6 @@
+{
+    "show_terminal_tab": false,
+    "jobs_tab_visibility": "closed",
+    "initial_working_directory": "~",
+    "posix_terminal_shell": "bash"
+}

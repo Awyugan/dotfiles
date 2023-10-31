@@ -1,0 +1,345 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1367,
+      "width": 1151,
+      "x": 960,
+      "y": 73
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1339,
+      "width": 1151,
+      "x": 960,
+      "y": 101
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1339,
+      "width": 1151,
+      "x": 960,
+      "y": 101
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAPAAAAASQAACD4AAAWfAAADwAAAAGUAAAg+AAAFnwAAAAAAAAAACgAAAAPAAAAAZQAACD4AAAWf"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "PHL 328P6A",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAHiAAAAtwAABYsAAAPyAAAB4gAAANMAAAWLAAAD8gAAAAAAAAAAB4AAAAHiAAAA0wAABYsAAAPy"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEpAAAFO/wCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawIAAAHiAAAA0wAAASkAAAHx+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAQAAAAAAAAU7AAAAtQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAChAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAARYA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAPsA////AAADVQAABTsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "十日谈": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "半月板": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "寻找正确的组织结构": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "强链接": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "运动损伤的预防": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "马列主义的马列主义": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "ePUBw.COM 【德】克里斯·安德森"
+        ],
+        "key": "/Users/polan/Downloads/数字游戏.azw3",
+        "pathtoebook": "/Users/polan/Downloads/数字游戏.azw3",
+        "timestamp": "2023-05-23T02:11:25.026Z",
+        "title": "数字游戏：关于足球，你全弄错了……吗？"
+      },
+      {
+        "authors": [
+          "吴茂贵 [吴茂贵]",
+          "chenjin5.com"
+        ],
+        "key": "/Users/polan/Downloads/书籍/18397169.mobi",
+        "pathtoebook": "/Users/polan/Downloads/书籍/18397169.mobi",
+        "timestamp": "2023-05-08T14:30:42.477Z",
+        "title": "Python深度学习：基于TensorFlow (智能系统与技术丛书)"
+      },
+      {
+        "authors": [
+          "雅兰·萨纳卡(Jalaj Thanaki) [雅兰·萨纳卡(Jalaj Thanaki)]",
+          "chenjin5.com"
+        ],
+        "key": "/Users/polan/Downloads/书籍/18380397.mobi",
+        "pathtoebook": "/Users/polan/Downloads/书籍/18380397.mobi",
+        "timestamp": "2023-05-08T14:30:13.034Z",
+        "title": "Python自然语言处理 (智能系统与技术丛书)"
+      },
+      {
+        "authors": [
+          "任韶堂"
+        ],
+        "key": "/Users/polan/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/34792db67fc5d407f1c0a209d649325c/Message/MessageTemp/29cef860fa40f9d1ed54b3f4bc2ce329/OpenData/The Language of Food A Linguist Reads the Menu 食物语言学 ([美] 任韶堂, [译] 王琳淳) (Z-Library).mobi",
+        "pathtoebook": "/Users/polan/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/34792db67fc5d407f1c0a209d649325c/Message/MessageTemp/29cef860fa40f9d1ed54b3f4bc2ce329/OpenData/The Language of Food A Linguist Reads the Menu 食物语言学 ([美] 任韶堂, [译] 王琳淳) (Z-Library).mobi",
+        "timestamp": "2023-04-27T04:21:02.479Z",
+        "title": "食物语言学（新视野人文丛书）"
+      },
+      {
+        "authors": [
+          "HAROLD H.KELLEY, JOHN G.HOLMES, NORBERT L.KERR, HARRY T.REIS, CARYL E.RUSBULT",
+          "PAUL A.M.VAN LANGE"
+        ],
+        "key": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库/HAROLD H.KELLEY, JOHN G.HOLMES, NORBERT L.KERR, HARRY T.REIS, CARYL E.RUSBULT/An Atlas of Interpersonal Situations (511)/An Atlas of Interpersonal Situations - HAROLD H.KELLEY, JOHN G.HOLMES, NORBERT L.epub",
+        "pathtoebook": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库/HAROLD H.KELLEY, JOHN G.HOLMES, NORBERT L.KERR, HARRY T.REIS, CARYL E.RUSBULT/An Atlas of Interpersonal Situations (511)/An Atlas of Interpersonal Situations - HAROLD H.KELLEY, JOHN G.HOLMES, NORBERT L.epub",
+        "timestamp": "2023-04-19T10:38:57.278Z",
+        "title": "An Atlas of Interpersonal Situations"
+      },
+      {
+        "authors": [
+          "Unknown"
+        ],
+        "key": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库/Unknown/Jue Ce Fen Xi Ji Chu Quan Qiu Ban (509)/Jue Ce Fen Xi Ji Chu Quan Qiu Ban - Unknown.epub",
+        "pathtoebook": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库/Unknown/Jue Ce Fen Xi Ji Chu Quan Qiu Ban (509)/Jue Ce Fen Xi Ji Chu Quan Qiu Ban - Unknown.epub",
+        "timestamp": "2023-04-19T03:18:58.328Z",
+        "title": "index"
+      },
+      {
+        "authors": [
+          "Unknown"
+        ],
+        "key": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库/Unknown/index (509)/index - Unknown.epub",
+        "pathtoebook": "/Users/polan/awyugan/D.MyLibrary/图书库/Calibre 书库/Unknown/index (509)/index - Unknown.epub",
+        "timestamp": "2023-04-19T03:12:14.341Z",
+        "title": "index"
+      },
+      {
+        "authors": [
+          "（美）彼得·德鲁克（Peter F.Drucker）著许是祥 译",
+          "那国毅 审订"
+        ],
+        "key": "/Users/polan/Downloads/卓有成效的管理者（中英文双语珍藏版） (德鲁克管理经典丛书) ( etc.) (Z-Library).epub",
+        "pathtoebook": "/Users/polan/Downloads/卓有成效的管理者（中英文双语珍藏版） (德鲁克管理经典丛书) ( etc.) (Z-Library).epub",
+        "timestamp": "2023-04-16T10:39:21.519Z",
+        "title": "卓有成效的管理者（中英文双语珍藏版） (德鲁克管理经典丛书)"
+      },
+      {
+        "authors": [
+          "ePUBw.COM 【美】彼得·德鲁克"
+        ],
+        "key": "/Users/polan/Downloads/创新与企业家精神 (ePUBw.COM 【美】彼得·德鲁克) (Z-Library).azw3",
+        "pathtoebook": "/Users/polan/Downloads/创新与企业家精神 (ePUBw.COM 【美】彼得·德鲁克) (Z-Library).azw3",
+        "timestamp": "2023-04-16T10:35:01.569Z",
+        "title": "创新与企业家精神"
+      },
+      {
+        "authors": [
+          "翟学伟"
+        ],
+        "key": "/Users/polan/awyugan/D.MyLibrary/图书库/人情、面子与权力的再生产.epub",
+        "pathtoebook": "/Users/polan/awyugan/D.MyLibrary/图书库/人情、面子与权力的再生产.epub",
+        "timestamp": "2023-04-10T06:26:42.704Z",
+        "title": "人情、面子与权力的再生产（第二版）"
+      },
+      {
+        "authors": [
+          "国学网"
+        ],
+        "key": "/Users/polan/Downloads/书目答问：治学门径的文献目录学类名著（国学网原版点注，朱玉麒审定） (国学网) (Z-Library).epub",
+        "pathtoebook": "/Users/polan/Downloads/书目答问：治学门径的文献目录学类名著（国学网原版点注，朱玉麒审定） (国学网) (Z-Library).epub",
+        "timestamp": "2023-03-23T09:05:48.227Z",
+        "title": "书目答问：治学门径的文献目录学类名著（国学网原版点注，朱玉麒审定）"
+      },
+      {
+        "authors": [
+          "克里斯坦森 / 迈克尔•雷纳"
+        ],
+        "key": "/Users/polan/Calibre 书库/Ke Li Si Tan Sen  _ Mai Ke Er _Lei Na/Chuang Xin Zhe De Jie Da (508)/Chuang Xin Zhe De Jie Da - Ke Li Si Tan Sen  _ Mai Ke Er _Lei Na.epub",
+        "pathtoebook": "/Users/polan/Calibre 书库/Ke Li Si Tan Sen  _ Mai Ke Er _Lei Na/Chuang Xin Zhe De Jie Da (508)/Chuang Xin Zhe De Jie Da - Ke Li Si Tan Sen  _ Mai Ke Er _Lei Na.epub",
+        "timestamp": "2023-03-12T06:52:15.186Z",
+        "title": "创新者的解答"
+      },
+      {
+        "authors": [
+          "[英]大卫·休谟"
+        ],
+        "key": "/Users/polan/Calibre 书库/[Ying ]Da Wei _Xiu Mo/Ying Guo Shi _Juan Yi (The History of England, Vol.1) (507)/Ying Guo Shi _Juan Yi (The History of Engl - [Ying ]Da Wei _Xiu Mo.epub",
+        "pathtoebook": "/Users/polan/Calibre 书库/[Ying ]Da Wei _Xiu Mo/Ying Guo Shi _Juan Yi (The History of England, Vol.1) (507)/Ying Guo Shi _Juan Yi (The History of Engl - [Ying ]Da Wei _Xiu Mo.epub",
+        "timestamp": "2023-03-10T11:04:49.065Z",
+        "title": "英国史·卷一（The History of England, Vol.1）"
+      },
+      {
+        "authors": [
+          "唐浩明"
+        ],
+        "key": "/Users/polan/Calibre 书库/Tang Hao Ming/Ceng Guo Fan (Tao Zhuang Quan 3Ce ) (506)/Ceng Guo Fan (Tao Zhuang Quan 3Ce ) - Tang Hao Ming.azw3",
+        "pathtoebook": "/Users/polan/Calibre 书库/Tang Hao Ming/Ceng Guo Fan (Tao Zhuang Quan 3Ce ) (506)/Ceng Guo Fan (Tao Zhuang Quan 3Ce ) - Tang Hao Ming.azw3",
+        "timestamp": "2023-03-10T11:00:45.162Z",
+        "title": "曾国藩(套装全3册)"
+      },
+      {
+        "authors": [
+          "[美] 乔治·K·齐夫"
+        ],
+        "key": "/Users/polan/Downloads/1030zslyz.mobi",
+        "pathtoebook": "/Users/polan/Downloads/1030zslyz.mobi",
+        "timestamp": "2023-01-05T01:21:58.092Z",
+        "title": "最省力原则：人类行为生态学导论"
+      },
+      {
+        "authors": [
+          "calibre"
+        ],
+        "key": "/Users/polan/Calibre 书库/calibre/The Asian Review of Books [Thu, 05 Jan 2023] (491)/The Asian Review of Books [Thu, 05 Jan 202 - calibre.epub",
+        "pathtoebook": "/Users/polan/Calibre 书库/calibre/The Asian Review of Books [Thu, 05 Jan 2023] (491)/The Asian Review of Books [Thu, 05 Jan 202 - calibre.epub",
+        "timestamp": "2023-01-05T00:31:27.677Z",
+        "title": "The Asian Review of Books [Thu, 05 Jan 2023]"
+      },
+      {
+        "authors": [
+          "calibre"
+        ],
+        "key": "/Users/polan/Calibre 书库/calibre/Ren Min Ri Bao  [Thu, 05 Jan 2023] (490)/Ren Min Ri Bao  [Thu, 05 Jan 2023] - calibre.epub",
+        "pathtoebook": "/Users/polan/Calibre 书库/calibre/Ren Min Ri Bao  [Thu, 05 Jan 2023] (490)/Ren Min Ri Bao  [Thu, 05 Jan 2023] - calibre.epub",
+        "timestamp": "2023-01-05T00:29:51.233Z",
+        "title": "人民日报 [Thu, 05 Jan 2023]"
+      },
+      {
+        "authors": [
+          "阿诺德·G· 尼尔森",
+          "尤卡·科科宁",
+          "尼克·伊万斯",
+          "美国国家体能协会",
+          "杰弗里·M·威拉德逊",
+          "罗伯特·S·高特林",
+          "迈克·鲍伊尔",
+          "简·约翰逊",
+          "露丝·邓肯",
+          "安·弗雷德里克",
+          "克里斯·弗雷德里克",
+          "美国国家体能协会",
+          "比尔·I·坎贝尔",
+          "玛利亚·A·斯帕诺",
+          "特拉维斯·艾略特"
+        ],
+        "key": "/Users/polan/Downloads/体育健身训练丛书：营养+训练+放松+损伤预防（套装全10册） ( etc.) (z-lib.org).mobi",
+        "pathtoebook": "/Users/polan/Downloads/体育健身训练丛书：营养+训练+放松+损伤预防（套装全10册） ( etc.) (z-lib.org).mobi",
+        "timestamp": "2022-11-14T07:42:48.505Z",
+        "title": "体育健身训练丛书：营养+训练+放松+损伤预防（套装全10册）"
+      },
+      {
+        "authors": [
+          "严文华"
+        ],
+        "key": "/Users/polan/Downloads/心理画外音：跨越10年的心理咨询个案 (严文华) (z-lib.org).epub",
+        "pathtoebook": "/Users/polan/Downloads/心理画外音：跨越10年的心理咨询个案 (严文华) (z-lib.org).epub",
+        "timestamp": "2022-11-14T06:58:33.467Z",
+        "title": "心理画外音：跨越10年的心理咨询个案"
+      },
+      {
+        "authors": [
+          "徐小平"
+        ],
+        "key": "/Users/polan/Downloads/图穷对话录.mobi",
+        "pathtoebook": "/Users/polan/Downloads/图穷对话录.mobi",
+        "timestamp": "2022-11-14T06:55:36.861Z",
+        "title": "图穷对话录——我的新东方人生咨询"
+      },
+      {
+        "authors": [
+          "徐小平"
+        ],
+        "key": "/Users/polan/Downloads/图穷对话录-我的新东方人生咨询.mobi",
+        "pathtoebook": "/Users/polan/Downloads/图穷对话录-我的新东方人生咨询.mobi",
+        "timestamp": "2022-11-14T06:53:58.068Z",
+        "title": "图穷对话录——我的新东方人生咨询"
+      },
+      {
+        "authors": [
+          "严文华"
+        ],
+        "key": "/Users/polan/Downloads/踏进这扇门心理咨询师初阶成长 (严文华) (z-lib.org).azw3",
+        "pathtoebook": "/Users/polan/Downloads/踏进这扇门心理咨询师初阶成长 (严文华) (z-lib.org).azw3",
+        "timestamp": "2022-11-14T06:37:18.096Z",
+        "title": "踏进这扇门:心理咨询师初阶成长"
+      },
+      {
+        "authors": [
+          "徐小平"
+        ],
+        "key": "/Users/polan/Downloads/图穷对话录——我的新东方人生咨询 (徐小平) (z-lib.org).mobi",
+        "pathtoebook": "/Users/polan/Downloads/图穷对话录——我的新东方人生咨询 (徐小平) (z-lib.org).mobi",
+        "timestamp": "2022-11-14T06:33:52.483Z",
+        "title": "图穷对话录——我的新东方人生咨询"
+      },
+      {
+        "authors": [
+          "James W. Pennebaker"
+        ],
+        "key": "/Users/polan/lifede/James W. Pennebaker/The Secret Life of Pronouns (78)/The Secret Life of Pronouns - James W. Pennebaker.epub",
+        "pathtoebook": "/Users/polan/lifede/James W. Pennebaker/The Secret Life of Pronouns (78)/The Secret Life of Pronouns - James W. Pennebaker.epub",
+        "timestamp": "2022-09-18T13:04:25.443Z",
+        "title": "The Secret Life of Pronouns"
+      },
+      {
+        "authors": [
+          "James W. Pennebaker"
+        ],
+        "key": "/Users/polan/Downloads/James W. Pennebaker - The Secret Life of Pronouns_ What Our Words Say About Us-Bloomsbury Press (2011).mobi",
+        "pathtoebook": "/Users/polan/Downloads/James W. Pennebaker - The Secret Life of Pronouns_ What Our Words Say About Us-Bloomsbury Press (2011).mobi",
+        "timestamp": "2022-09-18T13:03:00.388Z",
+        "title": "The Secret Life of Pronouns"
+      }
+    ]
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
+}

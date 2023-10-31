@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lineedit_history_bulk_edit_replace_with</key>
+	<array>
+		<string>督导</string>
+	</array>
+	<key>lineedit_history_bulk_edit_search_for</key>
+	<array>
+		<string>[0-9]{8}</string>
+		<string>{8}[0-9]</string>
+		<string>{8}[0,9]</string>
+	</array>
+	<key>lineedit_history_bulk_edit_test_test</key>
+	<array/>
+	<key>lineedit_history_choose_library_dialog</key>
+	<array>
+		<string>/Users/polan/awyugan/D.MyLibrary/图书库/lifede</string>
+		<string>/Users/polan/awyugan/D.MyLibrary/图书库</string>
+		<string>/Users/polan/lifede</string>
+	</array>
+	<key>lineedit_history_preferences_setting_auto_add_path</key>
+	<array/>
+	<key>lineedit_history_store_config_chooser_query</key>
+	<array/>
+	<key>lineedit_history_store_search_search</key>
+	<array>
+		<string>9787518957002</string>
+		<string>978-7-518-57002</string>
+	</array>
+	<key>lineedit_history_store_search_search_title</key>
+	<array>
+		<string>工作DNA</string>
+		<string>学术期刊载文效度分析与追踪</string>
+	</array>
+	<key>lineedit_history_viewer-search-panel-expression</key>
+	<array>
+		<string>强链接</string>
+		<string>寻找正确的组织结构</string>
+		<string>半月板</string>
+		<string>运动损伤的预防</string>
+		<string>马列主义的马列主义</string>
+		<string>十日谈</string>
+	</array>
+</dict>
+</plist>
