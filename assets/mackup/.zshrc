@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-export 
-PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:$PATH"
+export PATH="/usr/local/homebrew/bin:$PATH"
+alias python3='/usr/local/homebrew/bin/python3.11'
+alias pip3='/usr/local/homebrew/bin/pip3.11'
 
 # Theme set
 ## Set name of the theme to load --- if set to "random", it will
@@ -80,10 +81,12 @@ git-open
 zsh-osx-autoproxy
 forgit
 zsh-autosuggestions
+zsh-autocomplete
 zsh-syntax-highlighting
 fzf-tab
 zsh-completions
 zsh-vi-mode
+vscode
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=red"
 
