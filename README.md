@@ -19,7 +19,7 @@
 ```
 git clone {仓库链接} "$HOME"/dotfiles
 ```
-例如 git clone https://github.com/Awyugan/dotfiles.git "$HOME"/dotfiles
+例如 `git clone https://github.com/Awyugan/dotfiles.git "$HOME"/dotfiles`
 
 3. 点击把[我的仓库打包下载](https://github.com/Awyugan/dotfiles/archive/refs/heads/main.zip)
 将其中的文件拖入你的"$HOME"/dotfiles中，访问每个子文件的 Readme.md 和注释，确认了解运行的原理。
