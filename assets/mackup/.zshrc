@@ -1,7 +1,4 @@
 # If you come from bash you might have to change your $PATH.
-export PATH="/usr/local/homebrew/bin:$PATH"
-alias python3='/usr/local/homebrew/bin/python3.11'
-alias pip3='/usr/local/homebrew/bin/pip3.11'
 
 # Theme set
 ## Set name of the theme to load --- if set to "random", it will
@@ -87,6 +84,7 @@ fzf-tab
 zsh-completions
 zsh-vi-mode
 vscode
+poetry
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=red"
 
@@ -117,5 +115,18 @@ echo "zshrc loaded"
 #
 # Example aliases
 
-source "$HOME"/dotfiles/config/shell/init.sh "$(direnv hook zsh)"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/polan/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/polan/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/polan/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/polan/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
