@@ -16,7 +16,7 @@
         "when": "terminal.active"
     },
     {
-        "key": "` `",
+        "key": "alt+`",
         "command": "workbench.action.terminal.toggleTerminal"
     }
 ]
