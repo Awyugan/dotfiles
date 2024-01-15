@@ -23,4 +23,4 @@ bin/webtty
 # zsh
 config/shell/zsh_env_private.sh
 
-clash
+assets/mackup/.config/clash
