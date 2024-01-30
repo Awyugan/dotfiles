@@ -13,7 +13,7 @@
     "gitlens.defaultDateFormat": null,
     "gitlens.defaultTimeFormat": "HH:mm",
     "git.confirmSync": false,
-    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Default High Contrast Light",
     "color-highlight.matchWords": true,
     "color-highlight.matchRgbWithNoFunction": true,
     "color-manager.insertClassicHex": true,
